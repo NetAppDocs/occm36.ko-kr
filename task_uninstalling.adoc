@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_uninstalling.html 
+keywords: uninstalling, uninstall, reinstall 
+summary: Cloud Manager에는 소프트웨어를 제거하여 문제를 해결하거나 소프트웨어를 호스트에서 영구적으로 제거하는 데 사용할 수 있는 제거 스크립트가 포함되어 있습니다. 
+---
+= Cloud Manager 제거 중
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Manager에는 소프트웨어를 제거하여 문제를 해결하거나 소프트웨어를 호스트에서 영구적으로 제거하는 데 사용할 수 있는 제거 스크립트가 포함되어 있습니다.
+
+.단계
+. Cloud Manager를 다시 설치하려면 소프트웨어를 제거하기 전에 데이터베이스를 백업하십시오.
++
+.. Cloud Manager 콘솔의 오른쪽 위 모서리에서 작업 드롭다운 목록을 클릭하고 * 도구 * 를 선택합니다.
+.. 백업 * 을 클릭하고 백업 파일을 로컬 컴퓨터에 저장합니다.
+
+
+. Linux 호스트에서 제거 스크립트를 실행합니다.
++
+* /opt/application/netapp/cloudmanager/bin/uninstall.sh [silent] *
+
++
+_silent_는 확인 메시지를 표시하지 않고 스크립트를 실행합니다.
+
+

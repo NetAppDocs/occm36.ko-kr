@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: reference_before.html 
+keywords: prerequisites, requirements, before 
+summary: Cloud Manager를 사용하여 Cloud Volumes ONTAP 시스템을 생성하고 관리하기 전에 먼저 Cloud Manager에서 네트워킹을 준비하고 Cloud Manager를 설치 및 설정해야 합니다. 
+---
+= Cloud Volumes ONTAP 시스템을 생성하기 전에
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Manager를 사용하여 Cloud Volumes ONTAP 시스템을 생성하고 관리하기 전에 먼저 Cloud Manager에서 네트워킹을 준비하고 Cloud Manager를 설치 및 설정해야 합니다.
+
+관리자가 지침을 따라 설치하고 실행해야 합니다 link:task_getting_started_aws.html["AWS에서"] 또는 , 및 옵션 .
+
+Cloud Volumes ONTAP 배포를 시작하기 전에 다음 조건이 충족되어야 합니다.
+
+* Cloud Manager 및 Cloud Volumes ONTAP에 대한 AWS 및 Azure 네트워킹 요구사항이 충족되었습니다.
+* Cloud Manager에는 사용자 대신 AWS 및 Azure에서 작업을 수행할 수 있는 권한이 있습니다.
+* 사용자가 구축할 각 Cloud Volumes ONTAP 제품이 AWS 마켓플레이스를 통해 구독되었습니다.
+* Cloud Manager가 설치되었습니다.
+* (선택 사항) 추가 테넌트가 정의되었습니다.
+* (선택 사항) 테넌트 관리자 및 작업 환경 관리자를 포함할 수 있는 추가 사용자 계정이 생성되었습니다.
+

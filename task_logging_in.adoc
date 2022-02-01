@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_logging_in.html 
+keywords: logging in, log in, sign in, signing in, cloud central, netapp cloud central, user account 
+summary: Cloud Manager 시스템에 연결된 모든 웹 브라우저에서 Cloud Manager에 로그인할 수 있습니다. NetApp Cloud Central 사용자 계정을 사용하여 로그인해야 합니다. 
+---
+= Cloud Manager에 로그인
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Manager 시스템에 연결된 모든 웹 브라우저에서 Cloud Manager에 로그인할 수 있습니다. 를 사용하여 로그인해야 합니다 https://cloud.netapp.com["NetApp Cloud Central에서"^] 사용자 계정.
+
+.단계
+. 웹 브라우저를 열고 에 로그인합니다 https://cloud.netapp.com["NetApp Cloud Central에서"^].
+. 클라우드 데이터 서비스로 이동 * 을 클릭하고 * Cloud Volumes ONTAP * 를 선택합니다.
+. 액세스하려는 Cloud Manager 시스템에 대해 * Cloud Manager로 이동 * 을 클릭합니다.
++
+
+TIP: 나열된 시스템이 표시되지 않으면 Cloud Manager 관리자가 NetApp Cloud Central 계정을 시스템에 추가했는지 확인하십시오.
+
+. NetApp Cloud Central 계정을 사용하여 Cloud Manager에 로그인합니다.
++
+image:screenshot_login.gif["Cloud Manager의 로그인 화면"]
+
+

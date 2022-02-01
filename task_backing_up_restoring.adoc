@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task_backing_up_restoring.html 
+keywords: backing up, back up, backup, restore, restoring 
+summary: Cloud Manager를 사용하면 데이터베이스를 백업 및 복원하여 구성을 보호하고 문제를 해결할 수 있습니다. 
+---
+= Cloud Manager 백업 및 복원
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Manager를 사용하면 데이터베이스를 백업 및 복원하여 구성을 보호하고 문제를 해결할 수 있습니다.
+
+
+
+== Cloud Manager 백업
+
+Cloud Manager 데이터베이스를 주기적으로 백업하는 것이 좋습니다. 문제가 발생할 경우 이전 백업에서 Cloud Manager를 복원할 수 있습니다.
+
+.단계
+. Cloud Manager 콘솔의 오른쪽 위에서 작업 드롭다운 목록을 클릭한 다음 * 도구 * 를 선택합니다.
+. 백업 * 을 클릭합니다.
++
+image:screenshot_backup.gif["스크린샷: 도구 페이지의 백업 버튼을 표시합니다."]
+
+. 메시지가 표시되면 필요할 때 검색할 수 있도록 백업 파일을 안전한 위치에 저장합니다.
+
+
+
+
+== 백업에서 Cloud Manager 복원
+
+백업에서 Cloud Manager를 복원하면 기존 데이터가 백업의 데이터로 대체됩니다.
+
+.단계
+. Cloud Manager 콘솔의 오른쪽 위 모서리에서 작업 드롭다운 목록을 클릭하고 * 도구 * 를 선택합니다.
+. 복원 * 을 클릭합니다.
+. 확인 * 을 클릭하여 확인합니다.
+. 백업을 선택합니다.
+
+
+Cloud Manager는 백업 파일에서 데이터베이스를 복원합니다.

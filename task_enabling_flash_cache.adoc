@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_enabling_flash_cache.html 
+keywords: cloud volumes ontap, aws, ec2, flash cache, read-intensive, read, random, databases, email, file services, c5d.4xlarge, c5d.9xlarge, r5d.2xlarge, compression, performance 
+summary: 일부 EC2 인스턴스 유형에는 Cloud Volumes ONTAP이 Flash Cache로 사용하는 로컬 NVMe 스토리지가 있습니다. Flash Cache는 최근에 읽은 사용자 데이터와 NetApp 메타데이터의 실시간 지능형 캐싱을 통해 데이터 액세스 속도를 높입니다. 데이터베이스, 이메일, 파일 서비스를 비롯한 랜덤 읽기 집약적인 워크로드에 효과적입니다. 
+---
+= AWS의 Cloud Volumes ONTAP에서 Flash Cache 활성화
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+일부 EC2 인스턴스 유형에는 Cloud Volumes ONTAP가 _Flash Cache_로 사용하는 로컬 NVMe 스토리지가 있습니다. Flash Cache는 최근에 읽은 사용자 데이터와 NetApp 메타데이터의 실시간 지능형 캐싱을 통해 데이터 액세스 속도를 높입니다. 데이터베이스, 이메일, 파일 서비스를 비롯한 랜덤 읽기 집약적인 워크로드에 효과적입니다.
+
+
+NOTE: 재부팅 후 캐시 재가기는 Cloud Volumes ONTAP에서 지원되지 않습니다.
+
+.단계
+. Premium 및 BYOL 라이센스로 제공되는 다음 EC2 인스턴스 유형 중 하나를 선택합니다.
++
+** c5d.4xLarge
+** c5d.9xLarge
+** r5d.2xLarge
+
+
+. 모든 볼륨에서 압축을 해제합니다.
++
+Flash Cache의 성능 향상 기능을 활용하려면 모든 볼륨에서 압축을 해제해야 합니다. Cloud Manager에서 볼륨을 생성할 때 스토리지 효율성을 선택하지 않거나, 볼륨을 생성한 후 생성할 수 있습니다 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/GUID-8508A4CB-DB43-4D0D-97EB-859F58B29054.html["CLI를 사용하여 데이터 압축을 비활성화합니다"^].
+
+

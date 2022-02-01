@@ -1,0 +1,215 @@
+---
+settings:
+  name: Cloud Manager 3.6
+  nss_product: OnCommand Cloud Manager
+  downlevel: true
+  internal:
+    pdf_enabled: false
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ko-kr,us-en,ja-jp,zh-cn
+sidebar:
+  entries:
+  - title: Cloud Manager 3.6 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    entries:
+    - title: 클라우드 관리자
+      entries:
+      - title: 새로운 소식
+        url: "/reference_new_occm.html"
+      - title: 알려진 문제
+        url: "/reference_issues.html"
+      - title: 알려진 제한 사항
+        url: "/reference_limitations.html"
+    - title: Cloud Volumes ONTAP
+      url: https://docs.netapp.com/us-en/cloud-volumes-ontap/
+  - title: 개념
+    entries:
+    - title: 제품 개요
+      url: "/concept_overview.html"
+    - title: NetApp Cloud Central에서
+      url: "/concept_cloud_central.html"
+    - title: 계정 및 권한
+      url: "/concept_accounts_and_permissions.html"
+    - title: 스토리지
+      entries:
+      - title: 개요
+        url: "/concept_storage.html"
+      - title: 데이터 계층화
+        url: "/concept_data_tiering.html"
+      - title: 스토리지 관리
+        url: "/concept_storage_management.html"
+      - title: WORM 스토리지
+        url: "/concept_worm.html"
+    - title: 고가용성 쌍
+      entries:
+      - title: AWS의 HA 쌍
+        url: "/concept_ha.html"
+      - title: Azure의 HA 쌍
+        url: "/concept_ha_azure.html"
+    - title: 평가 중
+      url: "/concept_evaluating.html"
+    - title: 라이센싱
+      url: "/concept_licensing.html"
+    - title: 보안
+      url: "/concept_security.html"
+    - title: 성능
+      url: "/concept_performance.html"
+  - title: 시작하기
+    entries:
+    - title: 구축 개요
+      url: "/reference_deployment_overview.html"
+    - title: AWS 시작하기
+      url: "/task_getting_started_aws.html"
+    - title: Azure에서 시작하기
+      url: "/task_getting_started_azure.html"
+    - title: Cloud Manager 설정
+      entries:
+      - title: 클라우드 공급자 계정을 추가하는 중입니다
+        url: "/task_adding_cloud_accounts.html"
+      - title: NetApp Support 사이트 계정 추가
+        url: "/task_adding_nss_accounts.html"
+      - title: HTTPS 인증서 설치
+        url: "/task_installing_https_cert.html"
+      - title: 사용자 및 테넌트 설정
+        url: "/task_setting_up_users_tenants.html"
+      - title: AWS KMS 설정
+        url: "/task_setting_up_kms.html"
+    - title: 네트워킹 요구 사항
+      entries:
+      - title: 클라우드 관리자
+        url: "/reference_networking_cloud_manager.html"
+      - title: AWS 환경을 위한 Cloud Volumes ONTAP
+        url: "/reference_networking_aws.html"
+      - title: AWS 전송 게이트웨이 설정
+        url: "/task_setting_up_transit_gateway.html"
+      - title: Azure용 Cloud Volumes ONTAP
+        url: "/reference_networking_azure.html"
+    - title: 추가 구축 옵션
+      entries:
+      - title: Cloud Manager 호스트 요구사항
+        url: "/reference_cloud_mgr_reqs.html"
+      - title: Linux 호스트에 Cloud Manager 설치
+        url: "/task_installing_linux.html"
+      - title: AWS Marketplace에서 Cloud Manager 구축
+        url: "/task_launching_aws_mktp.html"
+      - title: Azure 마켓플레이스에서 Cloud Manager 구축
+        url: "/task_launching_azure_mktp.html"
+      - title: Azure Gov 지역에 Cloud Manager 배포
+        url: "/task_installing_azure_gov.html"
+      - title: Azure 독일 지역에 Cloud Manager 배포
+        url: "/task_installing_azure_germany.html"
+      - title: AWS C2S 환경에서 시작하기
+        url: "/media/c2s.pdf"
+  - title: Cloud Volumes ONTAP 배포
+    entries:
+    - title: 시작하기 전에
+      url: "/reference_before.html"
+    - title: Cloud Manager에 로그인
+      url: "/task_logging_in.html"
+    - title: 구성 계획
+      url: "/task_planning_your_config.html"
+    - title: AWS의 Cloud Volumes ONTAP에서 Flash Cache 활성화
+      url: "/task_enabling_flash_cache.html"
+    - title: AWS에서 Cloud Volumes ONTAP 실행
+      url: "/task_deploying_otc_aws.html"
+    - title: Azure에서 Cloud Volumes ONTAP 실행
+      url: "/task_deploying_otc_azure.html"
+    - title: 선불 종량제 시스템을 등록하는 중입니다
+      url: "/task_registering.html"
+    - title: Cloud Volumes ONTAP 설정
+      url: "/task_setting_up_ontap_cloud.html"
+  - title: 스토리지 프로비저닝
+    entries:
+    - title: 볼륨, 애그리게이트 및 LUN 생성
+      url: "/task_provisioning_storage.html"
+    - title: 비활성 데이터를 오브젝트 스토리지로 계층화
+      url: "/task_tiering.html"
+    - title: Cloud Volumes ONTAP를 영구 스토리지로 사용합니다
+      url: "/task_connecting_kubernetes.html"
+    - title: NetApp 볼륨 암호화로 볼륨 암호화
+      url: "/task_encrypting_volumes.html"
+    - title: 기존 스토리지 관리
+      url: "/task_managing_storage.html"
+    - title: 볼륨 보기에서 NFS 볼륨 프로비저닝
+      entries:
+      - title: 볼륨 보기로 변경합니다
+        url: "/task_changing_volume_view.html"
+      - title: NFS 볼륨 생성 및 마운트
+        url: "/task_provisioning_volume_view.html"
+      - title: NFS 볼륨 관리
+        url: "/task_managing_volume_view.html"
+  - title: 하이브리드 클라우드에서 데이터 관리
+    entries:
+    - title: ONTAP 클러스터 검색 및 관리
+      url: "/task_discovering_ontap.html"
+    - title: 클라우드 간 데이터 복제
+      url: "/task_replicating_data.html"
+    - title: 데이터를 AWS S3에 동기화 중입니다
+      url: "/task_syncing_s3.html"
+  - title: Cloud Volumes ONTAP 관리
+    entries:
+    - title: Cloud Volumes ONTAP에 연결 중입니다
+      url: "/task_connecting_to_otc.html"
+    - title: 소프트웨어 업데이트 중
+      url: "/task_updating_ontap_cloud.html"
+    - title: 시스템 구성 수정
+      url: "/task_modifying_ontap_cloud.html"
+    - title: 시스템을 중지 및 시작하는 중입니다
+      url: "/task_managing_state.html"
+    - title: AWS 비용 모니터링
+      url: "/task_monitoring_costs.html"
+    - title: 랜섬웨어 보호 개선
+      url: "/task_protecting_ransomware.html"
+    - title: 기존 시스템 추가
+      url: "/task_adding_ontap_cloud.html"
+    - title: 시스템을 삭제하는 중입니다
+      url: "/task_deleting_working_env.html"
+  - title: Cloud Manager 관리
+    entries:
+    - title: Cloud Manager 업데이트 중
+      url: "/task_updating_cloud_manager.html"
+    - title: 백업 및 복원
+      url: "/task_backing_up_restoring.html"
+    - title: 작업 환경 제거
+      url: "/task_removing.html"
+    - title: 사용자 계정 편집
+      url: "/task_editing_users.html"
+    - title: 프록시 설정을 구성하는 중입니다
+      url: "/task_configuring_proxy.html"
+    - title: HTTPS 인증서를 갱신하는 중입니다
+      url: "/task_renewing_cert.html"
+    - title: Cloud Manager 제거 중
+      url: "/task_uninstalling.html"
+  - title: API 및 자동화
+    entries:
+    - title: API 개발자 가이드 를 참조하십시오
+      url: https://docs.netapp.com/us-en/occm/api.html
+    - title: 자동화 샘플
+      url: "/reference_infrastructure_as_code.html"
+  - title: 참조하십시오
+    entries:
+    - title: Cloud Central 통합에 대한 FAQ
+      url: "/reference_integration_faq.html"
+    - title: Cloud Volumes ONTAP에 대해 지원되는 구성입니다
+      url: https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_supported_configs_95.html
+    - title: 지원 지역
+      url: https://cloud.netapp.com/cloud-volumes-global-regions
+    - title: AWS의 보안 그룹 규칙
+      url: "/reference_security_groups.html"
+    - title: Azure의 보안 그룹 규칙
+      url: "/reference_security_groups_azure.html"
+    - title: 권한
+      url: "/reference_permissions.html"
+    - title: 기본 설정
+      url: "/reference_default_configs.html"
+    - title: 사용자 역할
+      url: "/reference_user_roles.html"
+    - title: 관련 링크
+      url: "/reference_additional_info.html"
+  - title: 이전 버전
+    url: "/reference_earlier_versions.html"
+  - title: 법적 고지
+    url: "/reference_legal_notices.html"

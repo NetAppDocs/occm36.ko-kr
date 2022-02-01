@@ -1,0 +1,75 @@
+---
+sidebar: sidebar 
+permalink: reference_user_roles.html 
+keywords: user, role, task, permission, permissions, tasks, roles, admin, cloud manager admin, admin, tenant admin, working environment admin 
+summary: 각 Cloud Manager 사용자 계정에는 권한을 정의하는 역할이 할당됩니다. 
+---
+= 사용자 역할
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+각 Cloud Manager 사용자 계정에는 권한을 정의하는 역할이 할당됩니다.
+
+[cols="25,25,25,25"]
+|===
+| 작업 | Cloud Manager 관리자 | 테넌트 관리자 | 작업 환경 관리자 
+
+
+| 테넌트 관리 | 예 | 아니요 | 아니요 
+
+
+| 작업 환경 관리 | 예 | 예, 할당된 테넌트에 대해 | 예, 할당된 작업 환경에 대해 가능합니다 
+
+
+| 작업 환경을 Cloud Sync와 통합합니다 | 예 | 예 | 아니요 
+
+
+| 데이터 복제 상태를 봅니다 | 예 | 예, 할당된 테넌트에 대해 | 예, 할당된 작업 환경에 대해 가능합니다 
+
+
+| 타임라인을 봅니다 | 예 | 예 | 예 
+
+
+| 사용자 계정을 만들고 삭제합니다 | 예 | 예, 할당된 테넌트에 대해 | 아니요 
+
+
+| 사용자 계정을 수정합니다 | 예 | 예, 할당된 테넌트에 대해 | 예, 자신의 계정에 대해 그렇습니다 
+
+
+| 계정 설정을 관리합니다 | 예 | 아니요 | 아니요 
+
+
+| Kubernetes 설정 | 예 | 아니요 | 아니요 
+
+
+| 스토리지 시스템 보기와 볼륨 보기 간에 전환합니다 | 예 | 아니요 | 아니요 
+
+
+| 설정을 수정합니다 | 예 | 아니요 | 아니요 
+
+
+| 지원 대시보드 보기 및 관리 | 예 | 아니요 | 아니요 
+
+
+| Cloud Manager 백업 및 복원 | 예 | 아니요 | 아니요 
+
+
+| 작업 환경을 제거합니다 | 예 | 아니요 | 아니요 
+
+
+| Cloud Manager 업데이트 | 예 | 아니요 | 아니요 
+
+
+| HTTPS 인증서를 설치합니다 | 예 | 아니요 | 아니요 
+
+
+| Active Directory를 설정합니다 | 예 | 아니요 | 아니요 
+
+
+| 클라우드 스토리지 자동화 보고서 지원 | 예 | 아니요 | 아니요 
+|===
