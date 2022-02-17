@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_new_occm.html 
-keywords: what\'s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
 summary: OnCommand Cloud Manager에는 일반적으로 새로운 기능, 향상 기능 및 버그 수정을 제공하기 위해 매월 새로운 릴리즈가 도입되었습니다. 
 ---
 = Cloud Manager 3.6의 새로운 기능
