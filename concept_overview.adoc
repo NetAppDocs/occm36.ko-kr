@@ -6,6 +6,7 @@ summary: OnCommand Cloud Manager를 사용하면 Cloud Volumes ONTAP를 구축�
 ---
 = Cloud Manager 및 Cloud Volumes ONTAP 개요
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

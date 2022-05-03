@@ -6,6 +6,7 @@ summary: Cloud Manager를 사용하려면 대신 AWS 및 Azure에서 작업을 �
 ---
 = Cloud Manager에 대한 AWS 및 Azure 권한
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

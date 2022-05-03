@@ -6,6 +6,7 @@ summary: 각 Cloud Manager 사용자 계정에는 권한을 정의하는 역할�
 ---
 = 사용자 역할
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

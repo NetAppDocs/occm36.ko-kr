@@ -6,6 +6,7 @@ summary: Cloud Manager를 사용하여 AWS 스토리지에서 엔터프라이즈
 ---
 = NFS 볼륨 생성 및 마운트
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

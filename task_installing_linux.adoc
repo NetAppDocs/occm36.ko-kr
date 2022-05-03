@@ -6,6 +6,7 @@ summary: Cloud Manager를 구축하는 가장 일반적인 방법은 Cloud Centr
 ---
 = 기존 Linux 호스트에 Cloud Manager 설치
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

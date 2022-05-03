@@ -6,6 +6,7 @@ summary: Cloud Manager를 사용하여 Cloud Volumes ONTAP 시스템을 생성�
 ---
 = Cloud Volumes ONTAP 시스템을 생성하기 전에
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
@@ -15,7 +16,7 @@ summary: Cloud Manager를 사용하여 Cloud Volumes ONTAP 시스템을 생성�
 [role="lead"]
 Cloud Manager를 사용하여 Cloud Volumes ONTAP 시스템을 생성하고 관리하기 전에 먼저 Cloud Manager에서 네트워킹을 준비하고 Cloud Manager를 설치 및 설정해야 합니다.
 
-관리자가 지침을 따라 설치하고 실행해야 합니다 link:task_getting_started_aws.html["AWS에서"] 또는 , 및 옵션 .
+관리자가 지침을 따라 설치하고 실행해야 합니다 link:task_getting_started_aws.html["AWS에서"] 또는 link:task_getting_started_azure.html["Azure에서"], 및 옵션 link:task_adding_cloud_accounts.html["Cloud Manager 설정"].
 
 Cloud Volumes ONTAP 배포를 시작하기 전에 다음 조건이 충족되어야 합니다.
 

@@ -6,6 +6,7 @@ summary: OnCommand Cloud Manager에는 일반적으로 새로운 기능, 향상 
 ---
 = Cloud Manager 3.6의 새로운 기능
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
@@ -17,7 +18,7 @@ OnCommand Cloud Manager에는 일반적으로 새로운 기능, 향상 기능 �
 
 
 TIP: 이전 릴리스를 찾으십니까?link:https://docs.netapp.com/us-en/occm35/reference_new_occm.html["3.5의 새로운 기능"^]
-
+link:https://docs.netapp.com/us-en/occm34/reference_new_occm.html["3.4의 새로운 기능"^]
 
 
 
@@ -298,7 +299,7 @@ AWS에서 데이터 계층화를 활성화하면 Cloud Volumes ONTAP은 기본�
 
 이전 릴리즈에서와 마찬가지로 Standard - Infrequent Access 계층과 One Zone - Infrequent Access 계층도 사용할 수 있습니다.
 
-link:concept_data_tiering.html["데이터 계층화에 대해 자세히 알아보십시오"] 및 .
+link:concept_data_tiering.html["데이터 계층화에 대해 자세히 알아보십시오"] 및 link:task_tiering.html#changing-the-tiering-level["스토리지 클래스를 변경하는 방법에 대해 알아보십시오"].
 
 
 

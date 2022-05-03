@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP 시스템이 올바르게 작동할 수 있도록 A
 ---
 = Azure의 Cloud Volumes ONTAP에 대한 네트워킹 요구사항
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
@@ -19,7 +20,7 @@ Cloud Volumes ONTAP 시스템이 올바르게 작동할 수 있도록 Azure 네�
 Cloud Manager에 액세스해야 하는 엔드포인트 목록을 찾고 계십니까? 이제 단일 위치에서 유지 관리됩니다. link:reference_networking_cloud_manager.html["자세한 내용을 보려면 여기를 클릭하십시오"].
 
 ****
-Cloud Volumes ONTAP에 대한 아웃바운드 인터넷 액세스::
+Cloud Volumes ONTAP에 대한 아웃바운드 인터넷 액세스:: Cloud Volumes ONTAP에서 스토리지 상태를 능동적으로 모니터링하는 NetApp AutoSupport에 메시지를 보내려면 아웃바운드 인터넷 액세스가 필요합니다.
 +
 --
 라우팅 및 방화벽 정책은 Cloud Volumes ONTAP가 AutoSupport 메시지를 전송할 수 있도록 다음 엔드포인트로 AWS HTTP/HTTPS 트래픽을 허용해야 합니다.
@@ -30,7 +31,7 @@ Cloud Volumes ONTAP에 대한 아웃바운드 인터넷 액세스::
 
 --
 보안 그룹:: Cloud Manager에서 보안 그룹을 생성할 수 있으므로 보안 그룹을 생성할 필요가 없습니다. 직접 사용해야 하는 경우 을 참조하십시오 link:reference_security_groups_azure.html["보안 그룹 규칙"].
-데이터 계층화를 위해 Cloud Volumes ONTAP에서 Azure Blob 저장소로 연결::
+데이터 계층화를 위해 Cloud Volumes ONTAP에서 Azure Blob 저장소로 연결:: 콜드 데이터를 Azure Blob 저장소에 계층화하려는 경우 Cloud Manager에 필요한 권한이 있는 한 VNET 서비스 엔드포인트를 설정할 필요가 없습니다.
 +
 --
 [source, json]
@@ -43,7 +44,7 @@ Cloud Volumes ONTAP에 대한 아웃바운드 인터넷 액세스::
 데이터 계층화 설정에 대한 자세한 내용은 을 참조하십시오 link:task_tiering.html["콜드 데이터를 저비용 오브젝트 스토리지로 계층화"].
 
 --
-다른 네트워크의 ONTAP 시스템에 대한 연결::
+다른 네트워크의 ONTAP 시스템에 대한 연결:: Azure의 Cloud Volumes ONTAP 시스템과 다른 네트워크의 ONTAP 시스템 간에 데이터를 복제하려면 Azure VNET와 다른 네트워크(예: AWS VPC 또는 기업 네트워크) 간에 VPN 연결이 있어야 합니다.
 +
 --
 자세한 지침은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal["Microsoft Azure 문서: Azure 포털에서 사이트 간 연결을 만듭니다"^].

@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP 인스턴스를 단일 시스템 구성으로 실�
 ---
 = AWS에서 Cloud Volumes ONTAP 실행
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
@@ -173,7 +174,7 @@ image:screenshot_cot_vol.gif["스크린샷: Cloud Volumes ONTAP 인스턴스에 
 |===
 . 필요한 경우 Usage Profile, Disk Type 및 Tiering Policy 페이지에서 스토리지 효율성 기능을 사용하도록 설정하고 S3 계층화 정책을 편집할지 여부를 선택합니다.
 +
-자세한 내용은 을 참조하십시오 link:task_planning_your_config.html#choosing-a-volume-usage-profile["볼륨 사용 프로필 이해"] 및 .
+자세한 내용은 을 참조하십시오 link:task_planning_your_config.html#choosing-a-volume-usage-profile["볼륨 사용 프로필 이해"] 및 link:concept_data_tiering.html["데이터 계층화 개요"].
 
 . 검토 및 승인 페이지에서 선택 항목을 검토하고 확인합니다.
 +
@@ -367,7 +368,7 @@ image:screenshot_cot_vol.gif["스크린샷: Cloud Volumes ONTAP 인스턴스에 
 |===
 . 필요한 경우 Usage Profile, Disk Type 및 Tiering Policy 페이지에서 스토리지 효율성 기능을 사용하도록 설정하고 S3 계층화 정책을 편집할지 여부를 선택합니다.
 +
-자세한 내용은 을 참조하십시오 link:task_planning_your_config.html#choosing-a-volume-usage-profile["볼륨 사용 프로필 이해"] 및 .
+자세한 내용은 을 참조하십시오 link:task_planning_your_config.html#choosing-a-volume-usage-profile["볼륨 사용 프로필 이해"] 및 link:concept_data_tiering.html["데이터 계층화 개요"].
 
 . 검토 및 승인 페이지에서 선택 항목을 검토하고 확인합니다.
 +

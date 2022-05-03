@@ -6,6 +6,7 @@ summary: Cloud Manager를 사용하면 Cloud Volumes ONTAP에 볼륨을 프로�
 ---
 = 스토리지 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

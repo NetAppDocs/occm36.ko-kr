@@ -6,6 +6,7 @@ summary: 일부 EC2 인스턴스 유형에는 Cloud Volumes ONTAP이 Flash Cache
 ---
 = AWS의 Cloud Volumes ONTAP에서 Flash Cache 활성화
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

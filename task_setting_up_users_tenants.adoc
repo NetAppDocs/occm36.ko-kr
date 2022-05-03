@@ -6,6 +6,7 @@ summary: Cloud Manager를 사용하면 Cloud Manager에 Cloud Central 사용자�
 ---
 = 사용자 및 테넌트 설정
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

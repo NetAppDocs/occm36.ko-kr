@@ -6,6 +6,7 @@ summary: Cloud Manager 3.5로 업그레이드할 때 NetApp은 NetApp Cloud Cent
 ---
 = 질문과 대답: Cloud Manager와 NetApp Cloud Central의 통합
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

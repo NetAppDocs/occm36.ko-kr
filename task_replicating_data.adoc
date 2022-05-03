@@ -6,6 +6,7 @@ summary: Cloud Manager 작업 환경 간에 데이터를 복제할 수 있습니
 ---
 = 클라우드 간 데이터 복제
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

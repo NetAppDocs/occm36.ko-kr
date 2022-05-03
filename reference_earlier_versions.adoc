@@ -6,6 +6,7 @@ summary: 최신 버전을 실행하고 있지 않은 경우 이전 Cloud Manager
 ---
 = 더 빠른 버전의 Cloud Manager 설명서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

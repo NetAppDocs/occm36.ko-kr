@@ -6,6 +6,7 @@ summary: Cloud Manager를 사용하면 데이터베이스를 백업 및 복원�
 ---
 = Cloud Manager 백업 및 복원
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

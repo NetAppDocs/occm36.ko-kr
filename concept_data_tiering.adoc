@@ -6,6 +6,7 @@ summary: 콜드 데이터를 저비용 오브젝트 스토리지로 자동 계�
 ---
 = 데이터 계층화 개요
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
@@ -103,13 +104,13 @@ NOTE: Cloud Volumes ONTAP 작업 환경에서는 시스템의 모든 계층화�
 
 Cloud Volumes ONTAP는 다음과 같은 계층화 정책을 지원합니다.
 
-스냅샷만::
+스냅샷만:: Aggregate가 50% 용량에 도달하면 Cloud Volumes ONTAP는 활성 파일 시스템과 연결되지 않은 스냅샷 복사본의 콜드 사용자 데이터를 용량 계층으로 이동합니다. 냉각 기간은 약 2일입니다.
 +
 --
 읽으면 용량 계층의 콜드 데이터 블록이 핫 상태가 되고 성능 계층으로 이동합니다.
 
 --
-자동::
+자동:: Aggregate가 50% 용량에 도달하면 Cloud Volumes ONTAP는 볼륨의 콜드 데이터 블록을 용량 계층에 계층화합니다. 콜드 데이터에는 스냅샷 복사본뿐만 아니라 액티브 파일 시스템의 콜드 사용자 데이터도 포함됩니다. 냉각 기간은 약 31일입니다.
 +
 --
 이 정책은 Cloud Volumes ONTAP 9.4부터 지원됩니다.

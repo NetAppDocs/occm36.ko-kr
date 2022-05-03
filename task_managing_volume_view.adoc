@@ -6,6 +6,7 @@ summary: NFS 볼륨을 클론 복제, 데이터 액세스 관리, 기본 디스�
 ---
 = NFS 볼륨 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: DevOps 팀은 다양한 툴을 사용하여 새로운 환경의 설정�
 ---
 = 코드로서 인프라를 위한 자동화 샘플
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

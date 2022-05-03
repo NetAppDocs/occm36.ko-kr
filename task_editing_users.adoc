@@ -6,6 +6,7 @@ summary: 알림 보고서를 설정 및 해제하여 Cloud Manager에서 사용�
 ---
 = 사용자 계정 편집
 :hardbreaks:
+:allow-uri-read: 
 :backend-html5-doctype-book: 
 :basebackend-html-doctype-book: 
 :doctype-book: 

@@ -6,6 +6,7 @@ summary: Cloud Manager 볼륨 보기로 전환하면 Cloud Volumes ONTAP 스토�
 ---
 = 볼륨 보기로 변경합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

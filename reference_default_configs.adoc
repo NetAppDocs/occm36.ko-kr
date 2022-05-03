@@ -6,6 +6,7 @@ summary: Cloud Manager 및 Cloud Volumes ONTAP를 기본적으로 구성하는 �
 ---
 = 기본 설정
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

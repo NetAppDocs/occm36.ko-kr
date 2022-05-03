@@ -6,6 +6,7 @@ summary: 다른 클라우드 계정에 Cloud Volumes ONTAP를 배포하려면 �
 ---
 = Cloud Manager에 클라우드 공급자 계정 추가
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
