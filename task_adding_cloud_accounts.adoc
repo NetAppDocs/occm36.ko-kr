@@ -24,8 +24,8 @@ Cloud Central에서 Cloud Manager를 구축하면 Cloud Manager가 자동으로 
 
 다른 AWS 계정에 Cloud Volumes ONTAP를 구축하려는 경우 해당 계정에 필요한 권한을 제공한 다음 세부 정보를 Cloud Manager에 추가해야 합니다. 사용 권한을 제공하는 방법은 Cloud Manager에 AWS 키를 제공할지, 아니면 신뢰할 수 있는 계정에서 역할의 ARN을 제공하는지에 따라 달라집니다.
 
-* <<Granting permissions when providing AWS keys>>
-* <<Granting permissions by assuming IAM roles in other accounts>>
+*  permissions when providing AWS keys
+*  permissions by assuming IAM roles in other accounts
 
 
 
@@ -48,7 +48,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html["AW
 
 
 
-이제 계정에 필요한 권한이 있습니다. <<Adding AWS accounts to Cloud Manager,이제 Cloud Manager에 추가할 수 있습니다>>.
+이제 계정에 필요한 권한이 있습니다.  AWS accounts to Cloud Manager,이제 Cloud Manager에 추가할 수 있습니다.
 
 
 
@@ -92,7 +92,7 @@ image:screenshot_iam_create_role.gif["AWS IAM 콘솔에서 역할 생성 페이�
 
 
 
-이제 계정에 필요한 권한이 있습니다. <<Adding AWS accounts to Cloud Manager,이제 Cloud Manager에 추가할 수 있습니다>>.
+이제 계정에 필요한 권한이 있습니다.  AWS accounts to Cloud Manager,이제 Cloud Manager에 추가할 수 있습니다.
 
 
 
@@ -117,8 +117,8 @@ image:screenshot_accounts_switch_aws.gif["세부 정보 및 amp;Credentials 페�
 
 다른 Azure 계정에 Cloud Volumes ONTAP를 배포하려는 경우 해당 계정에 필요한 권한을 제공한 다음 Cloud Manager에 계정에 대한 세부 정보를 추가해야 합니다.
 
-* <<Granting Azure permissions using a service principal>>
-* <<Adding Azure accounts to Cloud Manager>>
+*  Azure permissions using a service principal
+*  Azure accounts to Cloud Manager
 
 
 
@@ -135,9 +135,9 @@ image:diagram_azure_authentication.png["API 호출을 수행하기 전에 Cloud 
 NOTE: 다음 단계에서는 새로운 Azure 포털을 사용합니다. 문제가 발생하는 경우 Azure Classic 포털을 사용해야 합니다.
 
 .단계
-. <<Creating a custom role with the required Cloud Manager permissions,필요한 Cloud Manager 권한으로 사용자 지정 역할을 생성합니다>>.
-. <<Creating an Active Directory service principal,Active Directory 서비스 보안 사용자를 생성합니다>>.
-. <<Assigning the Cloud Manager Operator role to the service principal,사용자 지정 Cloud Manager 운영자 역할을 서비스 보안 주체에 할당합니다>>.
+.  a custom role with the required Cloud Manager permissions,필요한 Cloud Manager 권한으로 사용자 지정 역할을 생성합니다.
+.  an Active Directory service principal,Active Directory 서비스 보안 사용자를 생성합니다.
+.  the Cloud Manager Operator role to the service principal,사용자 지정 Cloud Manager 운영자 역할을 서비스 보안 주체에 할당합니다.
 
 
 
