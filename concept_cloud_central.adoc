@@ -22,4 +22,4 @@ Cloud Manager와 NetApp Cloud Central의 통합은 간소화된 배포 경험, �
 
 다음 비디오에서 NetApp Cloud Central에 대해 알아보십시오.
 
-video::xKRsIfiy-54[youtube, width=848,height=480]
+video::xKRsIfiy-54[youtube,width=848,height=480]
