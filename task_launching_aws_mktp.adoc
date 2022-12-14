@@ -19,6 +19,7 @@ AWS에서 Cloud Manager를 시작하는 것이 가장 좋습니다 https://cloud
 
 TIP: AWS 마켓플레이스에서 Cloud Manager를 시작하면 Cloud Manager가 NetApp Cloud Central과 통합됩니다. link:concept_cloud_central.html["통합에 대해 자세히 알아보십시오"].
 
+.이 작업에 대해
 다음 단계에서는 콘솔에서 IAM 역할을 Cloud Manager 인스턴스에 연결할 수 있으므로 EC2 콘솔에서 인스턴스를 시작하는 방법을 설명합니다. 1-클릭 옵션은 사용할 수 없습니다.
 
 .단계
@@ -46,6 +47,8 @@ https://mysupport.netapp.com/cloudontap/iampolicies["NetApp OnCommand 클라우�
 
 
 
+.결과
 AWS가 지정된 설정으로 소프트웨어를 시작합니다. Cloud Manager 인스턴스와 소프트웨어는 약 5분 내에 실행되어야 합니다.
 
+.작업을 마친 후
 웹 브라우저에 공용 IP 주소 또는 전용 IP 주소를 입력하여 Cloud Manager에 로그인한 다음 설정 마법사를 완료합니다.

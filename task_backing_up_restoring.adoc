@@ -44,4 +44,5 @@ image:screenshot_backup.gif["스크린샷: 도구 페이지의 백업 버튼을 
 . 백업을 선택합니다.
 
 
+.결과
 Cloud Manager는 백업 파일에서 데이터베이스를 복원합니다.

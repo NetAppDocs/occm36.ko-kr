@@ -94,6 +94,7 @@ _ipaddress_는 Cloud Manager 호스트 구성에 따라 localhost, 전용 IP 주
 . 로그인한 후 이 Cloud Manager 시스템의 이름을 입력합니다.
 
 
+.작업을 마친 후
 Cloud Manager에서 Cloud Volumes ONTAP를 구축할 수 있도록 AWS 및 Azure 계정에 대한 권한 설정:
 
 * AWS에 Cloud Volumes ONTAP를 구축하려는 경우, link:task_adding_cloud_accounts.html["AWS 계정을 설정한 다음 Cloud Manager에 추가합니다"].

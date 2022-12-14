@@ -1055,7 +1055,6 @@
   <block id="28b05291adad7c873ac102ba84821b36" category="summary">Cloud Manager 및 Cloud Volumes ONTAP 관련 문서 포털에 오신 것을 환영합니다.</block>
   <block id="684c574c7f4f96c8a8169a7ac2bda18e" category="doc">Cloud Manager 및 Cloud Volumes ONTAP 설명서</block>
   <block id="810113769d05692064780f2ea32d8f51" category="paragraph">OnCommand Cloud Manager를 사용하면 클라우드 기반 워크로드를 보호, 가시성, 제어하는 데이터 관리 솔루션인 NetApp Cloud Volumes ONTAP를 구축 및 관리할 수 있습니다.</block>
-  <block id="1fde0727b387439572ade83eecff4f68" category="section-title">새로운 기능 알아보기</block>
   <block id="dcc605ce865f82b52df30a38895a0a28" category="inline-link-macro">Cloud Manager의 새로운 기능</block>
   <block id="edb072b4e9ed25ee40010488a956934f" category="list-text"><block ref="edb072b4e9ed25ee40010488a956934f" category="inline-link-macro-rx"></block></block>
   <block id="dd47c5ffc608943bbe951c1bc249e4a3" category="inline-link">Cloud Volumes ONTAP의 새로운 기능</block>
@@ -1272,12 +1271,10 @@
   <block id="60ecf384cb9af6dcc4b34eefeea51983" category="inline-link-macro">Azure 미국 정부 지역</block>
   <block id="3771bed548b02bcff99d781b6868ab13" category="inline-link-macro">Azure 독일 지역</block>
   <block id="ad0c6c926ca87a9fb70108c550fccf0f" category="paragraph">NetApp Cloud Central에서 Azure의 Cloud Volumes ONTAP를 시작할 수 있습니다. Cloud Manager를 구축할 수 있는 별도의 지침이 제공됩니다 <block ref="da7f489839113ef2991f8fcc148cc547" category="inline-link-macro-rx"></block> 및 IN <block ref="1e349e6e8f72c1a1fe1f77ef3a422193" category="inline-link-macro-rx"></block>.</block>
-  <block id="4e85b7aafac6d2da235acd904c8d01ca" category="section-title">네트워크 설정</block>
   <block id="2166ecbf4859162bda081330f902ad53" category="paragraph">클라우드 관리자 및 Cloud Volumes ONTAP가 여러 엔드포인트에 연결할 수 있도록 대상 VNET에서 아웃바운드 인터넷 액세스를 활성화합니다.</block>
   <block id="315474a8ef79b74899073fc979f12da4" category="inline-link-macro">클라우드 관리자</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
   <block id="276a89edea106f206e74969bd2f976bb" category="paragraph">이 단계는 Cloud Manager가 아웃바운드 인터넷 액세스 없이 Cloud Volumes ONTAP를 구축할 수 없기 때문에 중요합니다. 아웃바운드 연결을 제한해야 하는 경우 의 끝점 목록을 참조하십시오 <block ref="258d0bfeed07e9f3f800353fd17d365f" category="inline-link-macro-rx"></block> 및 <block ref="79a77371eaced9bdf59c560110560e49" category="inline-link-macro-rx"></block>.</block>
-  <block id="408bb88553711d2fd59ba113d098f8dd" category="section-title">필요한 Azure 권한을 제공합니다</block>
   <block id="3f19c3e0aa6f5f945c948f6796417dfc" category="paragraph">NetApp Cloud Central에서 Cloud Manager를 구축할 때 Cloud Manager 가상 머신을 구축할 권한이 있는 Azure 계정을 사용해야 합니다.</block>
   <block id="a2b9345ed22c9ebdc477f8bac99f9f21" category="inline-link">Azure를 위한 NetApp Cloud Central 정책</block>
   <block id="c4a2429a67db9d91e1319fb991f0f462" category="list-text">를 다운로드합니다<block ref="b53bbbe2ee3ee99c628f8f7ef4fae3a1" category="inline-link-rx"></block>.</block>
@@ -1285,10 +1282,8 @@
   <block id="871b413c8522ea45e3d21ae0e2f40074" category="list-text">JSON 파일을 사용하여 이름이 _Azure SetupAsService_인 Azure에서 사용자 지정 역할을 생성합니다.</block>
   <block id="2fe1c0d3354acc0e681995cd79e53f0f" category="paragraph">예: * az 역할 정의 create -- role-definition C:\Policy_for_Setup_as_Service_Azure.json *</block>
   <block id="4779e0ce2292186f4639cbe35ae58f72" category="list-text">Azure 포털에서 Cloud Central에서 Cloud Manager를 배포할 사용자에게 사용자 지정 역할을 할당합니다.</block>
-  <block id="8a150b1735194cf0c703f98bd7de9682" category="section-title">NetApp Cloud Central에서 Cloud Manager를 실행합니다</block>
   <block id="8ee8d65142a1b5ef6e397b75587b4e61" category="inline-link">Cloud Central을 참조하십시오</block>
   <block id="5cad3979e55c4e95947e4d99523e9d84" category="paragraph">Cloud Volumes ONTAP를 구축 및 관리하려면 Cloud Manager 소프트웨어가 필요합니다. Cloud Manager 인스턴스를 시작하는 데는 몇 분 밖에 걸리지 않습니다<block ref="dd2262940c431e31dfcd64b1f8a27d38" category="inline-link-rx"></block>.</block>
-  <block id="161814f2b49992da7596b7b7fc9f77ae" category="section-title">Cloud Manager를 사용하여 Cloud Volumes ONTAP를 실행합니다</block>
   <block id="e8d9c9558f90fed7859f1bef1e630707" category="paragraph">Cloud Manager가 준비되면 생성 을 클릭하고 구축할 시스템 유형을 선택한 다음 마법사의 단계를 완료합니다. 25분 후 첫 번째 Cloud Volumes ONTAP 시스템이 가동되어 실행 중이어야 합니다.</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">관련 링크</block>
   <block id="be64d9d97cf79e96941a831e40507ca5" category="inline-link-macro">평가 중</block>
@@ -2328,10 +2323,8 @@
   <block id="d5332076efde404a7834150e066ff876" category="paragraph">이 단계는 Cloud Manager가 아웃바운드 인터넷 액세스 없이 Cloud Volumes ONTAP를 구축할 수 없기 때문에 중요합니다. 아웃바운드 연결을 제한해야 하는 경우 의 끝점 목록을 참조하십시오 <block ref="258d0bfeed07e9f3f800353fd17d365f" category="inline-link-macro-rx"></block> 및 <block ref="82273ff2b165ec558cf6885df6c1a399" category="inline-link-macro-rx"></block>.</block>
   <block id="c1540e16429791c7515c0322aad07fcf" category="list-text">VPC 엔드포인트를 S3 서비스로 설정합니다.</block>
   <block id="4274b83eccea8c2453ce00d6c7cde54e" category="paragraph">Cloud Volumes ONTAP의 콜드 데이터를 저비용 오브젝트 스토리지로 계층화하려는 경우 VPC 엔드포인트가 필요합니다.</block>
-  <block id="c5f19207f1daef0a6280f41fb14d4300" category="section-title">AWS Marketplace에서 Cloud Volumes ONTAP를 구독하십시오</block>
   <block id="c3db50cf0b4ffda7e5efdef5c6344f1a" category="inline-link">AWS 마켓플레이스</block>
   <block id="78c36a87b6c0955bc0db78d44434a1a6" category="paragraph">가입<block ref="4a4be2c5a933797a9af2d5ea70e24e84" category="inline-link-rx"></block> 소프트웨어 약관에 동의해야 합니다. 마켓플레이스에서만 구독해야 합니다. 어디서나 Cloud Volumes ONTAP를 시작할 수는 있지만 Cloud Manager는 지원되지 않습니다.</block>
-  <block id="fcb13a1250c0b335c18418ea431681f2" category="section-title">필요한 AWS 권한을 제공합니다</block>
   <block id="b99486f44ccd43f06815851fcef5a3bc" category="paragraph">NetApp Cloud Central에서 Cloud Manager를 구축할 때 인스턴스를 배포할 수 있는 권한이 있는 AWS 계정을 사용해야 합니다.</block>
   <block id="f84694bd2204c771ef8e329f1ff15cd4" category="list-text">AWS IAM 콘솔로 이동하여 의 내용을 복사하여 붙여 넣어 정책을 생성합니다<block ref="467dbce35aa796ce72a03c7f71443016" category="inline-link-rx"></block>.</block>
   <block id="9680d60a8a185f9729b0b9df0caac646" category="list-text">정책을 IAM 사용자에게 연결합니다.</block>
@@ -2601,20 +2594,16 @@
   <block id="d4307938712bd86df3547821620fc208" category="paragraph">Cloud Manager는 의 구축을 자동화할 수 있습니다<block ref="16b9ce8eda4ad967a3b6f9a1ad8a19fc" category="inline-link-rx"></block> Kubernetes 클러스터에서 컨테이너용 영구 스토리지로 Cloud Volumes ONTAP를 사용할 수 있습니다. 시작에 몇 가지 단계가 있습니다.</block>
   <block id="234670c6936863be5df76e89d43f6839" category="inline-link">NetApp Kubernetes 서비스</block>
   <block id="a14d72ed5dcd2af3c8de2d38e1cce7f4" category="paragraph">를 사용하여 Kubernetes 클러스터를 구축하는 경우<block ref="4039676aa53969da934d824de6b5ae64" category="inline-link-rx"></block>Cloud Manager를 사용하면 NetApp Cloud Central 계정에서 클러스터를 자동으로 검색할 수 있습니다. 이 경우 처음 두 단계를 건너뛰고 3단계부터 시작합니다.</block>
-  <block id="66fd4a5928a9410b6d0484b91e95ec73" category="section-title">네트워크 연결을 확인합니다</block>
   <block id="56309b04944f1b3ce20ec80954905f73" category="list-text">Cloud Manager와 Kubernetes 클러스터 간, Kubernetes 클러스터에서 Cloud Volumes ONTAP 시스템까지 네트워크 연결을 사용할 수 있어야 합니다.</block>
   <block id="dcb9677328ce110eccce4861e794d6db" category="list-text">Trident를 설치할 때 Cloud Manager에서 다음 끝점에 액세스하려면 아웃바운드 인터넷 연결이 필요합니다.</block>
   <block id="ca2f8a989dd9c49097cbd2a29eae79f4" category="paragraph">Cloud Manager는 작업 환경을 클러스터에 연결할 때 Kubernetes 클러스터에 Trident를 설치합니다.</block>
-  <block id="70c2574420ea451459b76abad35d0a96" category="section-title">Kubernetes 구성 파일을 Cloud Manager에 업로드합니다</block>
   <block id="a7b0342841b82435892e3e9533f860b2" category="paragraph">각 Kubernetes 클러스터의 Cloud Manager 관리자는 YAML 형식의 구성 파일(kubecononfig)을 업로드해야 합니다. 파일을 업로드하면 Cloud Manager가 클러스터에 대한 연결을 확인하고 kubecon무화파일의 암호화된 복사본을 저장합니다.</block>
   <block id="08cbb53df36a11f3c34ff8bbf0a53284" category="paragraph">Kubernetes 클러스터 &gt; 검색 &gt; 파일 업로드 * 를 클릭하고 kubecononfig 파일을 선택합니다.</block>
   <block id="d9729feb74992cc3482b350163a1a010" category="inline-image-macro">SDF</block>
   <block id="57e7f662c9343fc2ce6ad807abc95878" category="paragraph"><block ref="57e7f662c9343fc2ce6ad807abc95878" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cb14b279d631c8e74799c921cd2c867a" category="section-title">작업 환경을 Kubernetes 클러스터에 연결합니다</block>
   <block id="6260b6f00c25b81f398ea0427309c5e4" category="paragraph">작업 환경에서 Kubernetes 아이콘을 클릭하고 화면의 지시를 따릅니다. 여러 클러스터를 서로 다른 Cloud Volumes ONTAP 시스템에 연결하고 여러 클러스터를 동일한 Cloud Volumes ONTAP 시스템에 연결할 수 있습니다.</block>
   <block id="5bbcb5b3d63f059941f597f11b771bf9" category="paragraph">NetApp 스토리지 클래스를 Kubernetes 클러스터의 기본 스토리지 클래스로 설정할 수 있습니다. 사용자가 영구 볼륨을 생성할 때 Kubernetes 클러스터는 연결된 Cloud Volumes ONTAP 시스템을 기본적으로 백엔드 스토리지로 사용할 수 있습니다.</block>
   <block id="bf86d28ed7dd3b7013a1f3d1356334b5" category="paragraph"><block ref="bf86d28ed7dd3b7013a1f3d1356334b5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3131838ab26e8cd5c452aaac1467f3b4" category="section-title">영구 볼륨 프로비저닝을 시작합니다</block>
   <block id="c74f1b2bbbb9d945984f18230b2295c2" category="paragraph">네이티브 Kubernetes 인터페이스 및 구조를 사용하여 영구 볼륨을 요청 및 관리합니다. Cloud Manager에서는 영구 볼륨을 프로비저닝할 때 사용할 수 있는 2개의 Kubernetes 스토리지 클래스를 생성합니다.</block>
   <block id="ce451b45e03dc0c6a3da1d6d1d3c7cc8" category="list-text">* NetApp-파일 *: 영구 볼륨을 단일 노드 Cloud Volumes ONTAP 시스템에 바인딩하는 데 사용됩니다</block>
   <block id="f3c76f378195d9822cb21ab7c901657e" category="list-text">* NetApp-파일-중복 *: 영구 볼륨을 Cloud Volumes ONTAP HA 쌍에 바인딩하는 데 사용됩니다</block>
@@ -3194,4 +3183,24 @@
   <block id="75396e001838965f1f26327de3cf6d73" category="sidebar">Cloud Volumes ONTAP에 대해 지원되는 구성입니다</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="sidebar">권한</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">이전 버전</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
+  <block id="9b1146da7e8885b360bcba1784bf6d6c" category="inline-image-macro">1번</block>
+  <block id="1323d5a65678d7001c29460122ccc820" category="section-title"><block ref="dfda45ebcbf64ca08d06a80353e9cf6f" category="inline-image-macro-rx" type="image"></block> 네트워크 연결을 확인합니다</block>
+  <block id="6518735ebbb492ee2f8f5dfee52f3842" category="inline-image-macro">2번</block>
+  <block id="94ed2c35dc25a4c6a2f0ff7f42fbbee8" category="section-title"><block ref="b496ee93dbdd8d3b796a1af3fe777064" category="inline-image-macro-rx" type="image"></block> Kubernetes 구성 파일을 Cloud Manager에 업로드합니다</block>
+  <block id="a4c574c9c96d1cf8d9986e0d17dbe38b" category="inline-image-macro">3번</block>
+  <block id="5e661dcc3402ab309aa8ed30318888c7" category="section-title"><block ref="f99fa24d03c6ef96c556af7cdf23810f" category="inline-image-macro-rx" type="image"></block> 작업 환경을 Kubernetes 클러스터에 연결합니다</block>
+  <block id="fa8bdf405671f556729a131b30bab6af" category="inline-image-macro">4번</block>
+  <block id="a2a98c975ba9db610320c9f064248420" category="section-title"><block ref="d0f5cff2b8e0ecc91e360a74276cf2dd" category="inline-image-macro-rx" type="image"></block> 영구 볼륨 프로비저닝을 시작합니다</block>
+  <block id="492e5546e60705134bff8d7f80511a8d" category="section-title">새로운 기능 알아보기</block>
+  <block id="f744727b72c0e98e6caa53f045e617cd" category="section-title"><block ref="dfda45ebcbf64ca08d06a80353e9cf6f" category="inline-image-macro-rx" type="image"></block> 네트워크 설정</block>
+  <block id="b5d4d688d49de4d2cad68f577d8bae2f" category="section-title"><block ref="b496ee93dbdd8d3b796a1af3fe777064" category="inline-image-macro-rx" type="image"></block> AWS Marketplace에서 Cloud Volumes ONTAP를 구독하십시오</block>
+  <block id="a6b9de9663a4722a5c88412f9b6849d3" category="section-title"><block ref="f99fa24d03c6ef96c556af7cdf23810f" category="inline-image-macro-rx" type="image"></block> 필요한 AWS 권한을 제공합니다</block>
+  <block id="d32db7792895fcf20faa24c02cd968ad" category="section-title"><block ref="d0f5cff2b8e0ecc91e360a74276cf2dd" category="inline-image-macro-rx" type="image"></block> NetApp Cloud Central에서 Cloud Manager를 실행합니다</block>
+  <block id="6a604e45dcab200406f10c70d639255a" category="inline-image-macro">5번</block>
+  <block id="67467aa7bd51d7bbe961339db94944ba" category="section-title"><block ref="c8b82927684b7195fa645497b5fcc719" category="inline-image-macro-rx" type="image"></block> Cloud Manager를 사용하여 Cloud Volumes ONTAP를 실행합니다</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
+  <block id="832eb2addfeb7baf5b285a22aaeb4161" category="section-title"><block ref="b496ee93dbdd8d3b796a1af3fe777064" category="inline-image-macro-rx" type="image"></block> 필요한 Azure 권한을 제공합니다</block>
+  <block id="55656479963c4d6faa53aa52af17bb58" category="section-title"><block ref="f99fa24d03c6ef96c556af7cdf23810f" category="inline-image-macro-rx" type="image"></block> NetApp Cloud Central에서 Cloud Manager를 실행합니다</block>
+  <block id="fc6a1c4bfdea701c7028d4b2604689fb" category="section-title"><block ref="d0f5cff2b8e0ecc91e360a74276cf2dd" category="inline-image-macro-rx" type="image"></block> Cloud Manager를 사용하여 Cloud Volumes ONTAP를 실행합니다</block>
 </blocks>
