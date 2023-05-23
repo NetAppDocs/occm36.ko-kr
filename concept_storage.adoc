@@ -48,11 +48,11 @@ EBS 디스크 유형의 차이점은 다음과 같습니다.
 
 NOTE: 콜드 HDD 디스크는 HA 구성 및 데이터 계층화에서 지원되지 않습니다.
 
-이러한 디스크의 사용 사례에 대한 자세한 내용은 를 참조하십시오 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html["AWS 설명서:EBS 볼륨 유형"^].
+이러한 디스크의 사용 사례에 대한 자세한 내용은 를 참조하십시오 http://["AWS 설명서:EBS 볼륨 유형"^].
 
 link:task_planning_your_config.html#sizing-your-system-in-aws["AWS에서 시스템의 디스크 유형 및 디스크 크기를 선택하는 방법에 대해 알아보십시오"].
 
-https://docs.netapp.com/cloud-volumes-ontap/us-en/reference_storage_limits_95.html["Cloud Volumes ONTAP에 대한 스토리지 제한값을 검토합니다"].
+https://["Cloud Volumes ONTAP에 대한 스토리지 제한값을 검토합니다"].
 
 
 
@@ -78,8 +78,8 @@ Azure에서는 aggregate가 동일한 크기의 디스크를 최대 12개까지 
 HA 쌍:: HA 쌍에서는 최대 디스크 크기가 8TB인 프리미엄 페이지 Blob을 사용합니다.
 
 
-이러한 디스크의 사용 사례에 대한 자세한 내용은 를 참조하십시오 https://azure.microsoft.com/documentation/articles/storage-introduction/["Microsoft Azure 설명서: Microsoft Azure 스토리지 소개"^].
+이러한 디스크의 사용 사례에 대한 자세한 내용은 를 참조하십시오 https://["Microsoft Azure 설명서: Microsoft Azure 스토리지 소개"^].
 
 link:task_planning_your_config.html#sizing-your-system-in-azure["Azure에서 시스템의 디스크 유형 및 디스크 크기를 선택하는 방법에 대해 알아보십시오"].
 
-https://docs.netapp.com/cloud-volumes-ontap/us-en/reference_storage_limits_95.html["Cloud Volumes ONTAP에 대한 스토리지 제한값을 검토합니다"].
+https://["Cloud Volumes ONTAP에 대한 스토리지 제한값을 검토합니다"].

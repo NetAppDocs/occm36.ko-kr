@@ -14,7 +14,7 @@ summary: Cloud Manager를 사용하려면 대신 AWS 및 Azure에서 작업을 �
 
 
 [role="lead"]
-Cloud Manager를 사용하려면 대신 AWS 및 Azure에서 작업을 수행할 권한이 있어야 합니다. 이러한 권한은 에 포함되어 있습니다 https://mysupport.netapp.com/info/web/ECMP11022837.html["NetApp에서 제공하는 정책"^]. Cloud Manager가 이러한 사용 권한을 통해 수행하는 작업을 이해하기를 원할 수 있습니다.
+Cloud Manager를 사용하려면 대신 AWS 및 Azure에서 작업을 수행할 권한이 있어야 합니다. 이러한 권한은 에 포함되어 있습니다 https://["NetApp에서 제공하는 정책"^]. Cloud Manager가 이러한 사용 권한을 통해 수행하는 작업을 이해하기를 원할 수 있습니다.
 
 
 

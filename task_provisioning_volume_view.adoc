@@ -57,7 +57,7 @@ Cloud Manager를 사용하여 AWS 스토리지에서 엔터프라이즈급 기�
 ** 콜드 HDD 디스크는 성능이 매우 낮기 때문에 백업 또는 자주 액세스하지 않는 데이터용으로 적합합니다. 처리량이 최적화된 HDD 디스크와 마찬가지로 성능은 처리량 측면에서 정의됩니다.
 
 
-자세한 내용은 을 참조하십시오 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html["AWS 설명서:EBS 볼륨 유형"^].
+자세한 내용은 을 참조하십시오 http://["AWS 설명서:EBS 볼륨 유형"^].
 
 |===
 +
@@ -86,7 +86,7 @@ image:screenshot_volume_view_create.gif["스크린샷: 새 볼륨 만들기 페�
 ** 처리량 최적화된 HDD 디스크는 빠르고 일관된 처리량이 필요한 자주 액세스되는 워크로드에 적합합니다.
 
 
-자세한 내용은 을 참조하십시오 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html["AWS 설명서:EBS 볼륨 유형"^].
+자세한 내용은 을 참조하십시오 http://["AWS 설명서:EBS 볼륨 유형"^].
 
 
 
@@ -99,7 +99,7 @@ image:screenshot_volume_view_create.gif["스크린샷: 새 볼륨 만들기 페�
 | 유동 IP | IP 주소는 해당 지역의 모든 VPC에 대한 CIDR 블록 외부에 있어야 합니다. 
 
 
-| 라우팅 테이블 | 둘 이상의 라우팅 테이블이 있는 경우 올바른 라우팅 테이블을 선택하는 것이 매우 중요합니다. 그렇지 않으면 일부 클라이언트가 HA 쌍에 액세스하지 못할 수 있습니다. 자세한 내용은 을 참조하십시오  http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Route_Tables.html["AWS 설명서: 경로 테이블"^]. 
+| 라우팅 테이블 | 둘 이상의 라우팅 테이블이 있는 경우 올바른 라우팅 테이블을 선택하는 것이 매우 중요합니다. 그렇지 않으면 일부 클라이언트가 HA 쌍에 액세스하지 못할 수 있습니다. 자세한 내용은 을 참조하십시오  http://["AWS 설명서: 경로 테이블"^]. 
 |===
 +
 다음 이미지는 노드 및 중재자 페이지를 보여 줍니다. 각 인스턴스는 별도의 가용성 영역에 있습니다.

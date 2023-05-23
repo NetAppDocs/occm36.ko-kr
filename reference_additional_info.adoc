@@ -16,11 +16,11 @@ summary: 비디오, 포럼, 지원을 비롯한 다양한 리소스를 통해 �
 [role="lead"]
 비디오, 포럼, 지원을 비롯한 다양한 리소스를 통해 도움을 얻고 Cloud Manager 및 Cloud Volumes ONTAP에 대한 자세한 정보를 확인할 수 있습니다.
 
-* https://www.youtube.com/playlist?list=PLdXI3bZJEw7lnoRo8FBKsX1zHbK8AQOoT["Cloud Manager 및 Cloud Volumes ONTAP 비디오"^]
+* https://["Cloud Manager 및 Cloud Volumes ONTAP 비디오"^]
 +
 AWS 및 Azure에서 Cloud Volumes ONTAP를 구축 및 관리하는 방법과 하이브리드 클라우드에서 데이터를 복제하는 방법을 비디오 에서 확인하십시오.
 
-* http://mysupport.netapp.com/cloudontap/support/iampolicies["Cloud Manager에 대한 정책"^]
+* http://["Cloud Manager에 대한 정책"^]
 +
 Cloud Manager에서 AWS 및 Azure에서 작업을 수행하는 데 필요한 권한이 포함된 JSON 파일을 다운로드합니다.
 
@@ -30,41 +30,41 @@ API 개요, API 사용 방법의 예 및 API 참조를 읽어 보십시오.
 
 * Cloud Volumes ONTAP 교육
 +
-** https://learningcenter.netapp.com/LC?ObjectType=WBT&ObjectID=00368390["Cloud Volumes ONTAP 기본 원리"^]
-** https://learningcenter.netapp.com/LC?ObjectType=WBT&ObjectID=00369436["Azure용 Cloud Volumes ONTAP 배포 및 관리"^]
+** https://["Cloud Volumes ONTAP 기본 원리"^]
+** https://["Azure용 Cloud Volumes ONTAP 배포 및 관리"^]
 
 
 * 기술 보고서
 +
-** https://www.netapp.com/us/media/tr-4383.pdf["NetApp 기술 보고서 4383: 애플리케이션 워크로드를 포함한 Amazon Web Services의 Cloud Volumes ONTAP 성능 특성"^]
-** https://www.netapp.com/us/media/tr-4671.pdf["NetApp 기술 보고서 4671: 애플리케이션 워크로드를 포함한 Azure의 Cloud Volumes ONTAP 성능 특성"^]
+** https://["NetApp 기술 보고서 4383: 애플리케이션 워크로드를 포함한 Amazon Web Services의 Cloud Volumes ONTAP 성능 특성"^]
+** https://["NetApp 기술 보고서 4671: 애플리케이션 워크로드를 포함한 Azure의 Cloud Volumes ONTAP 성능 특성"^]
 
 
-* https://library.netapp.com/ecm/ecm_get_file/ECMLP2839856["Cloud Volumes ONTAP 9 SVM 재해 복구 준비 Express 가이드"^]
+* https://["Cloud Volumes ONTAP 9 SVM 재해 복구 준비 Express 가이드"^]
 +
 재해 복구 준비를 위해 대상 SVM을 빠르게 구성하는 방법에 대해 설명합니다.
 
-* https://library.netapp.com/ecm/ecm_get_file/ECMLP2839857["Cloud Volumes ONTAP 9 SVM 재해 복구 익스프레스 가이드 를 참조하십시오"^]
+* https://["Cloud Volumes ONTAP 9 SVM 재해 복구 익스프레스 가이드 를 참조하십시오"^]
 +
 재해 발생 후 타겟 SVM을 빠르게 활성화한 다음 소스 SVM을 다시 활성화하는 방법을 설명합니다.
 
-* http://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"^]
+* http://["ONTAP 9 문서 센터"^]
 +
 ONTAP를 사용하는 데 도움이 되는 Cloud Volumes ONTAP 제품 설명서를 참조하십시오.
 
-* https://mysupport.netapp.com/cloudontap["NetApp Cloud Volumes ONTAP 지원"^]
+* https://["NetApp Cloud Volumes ONTAP 지원"^]
 +
 지원 리소스에 액세스하여 Cloud Volumes ONTAP 관련 문제를 해결하고 도움을 받으십시오.
 
-* https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS["NetApp 커뮤니티: 클라우드 데이터 서비스"^]
+* https://["NetApp 커뮤니티: 클라우드 데이터 서비스"^]
 +
 동료와 소통하고, 질문을 하고, 아이디어를 교환하고, 리소스를 찾고, 모범 사례를 공유합니다.
 
-* http://cloud.netapp.com/["NetApp Cloud Central에서"^]
+* http://["NetApp Cloud Central에서"^]
 +
 클라우드를 위한 추가 NetApp 제품 및 솔루션에 대한 정보를 찾아보십시오.
 
-* http://docs.netapp.com["NetApp 제품 설명서"^]
+* http://["NetApp 제품 설명서"^]
 +
 NetApp 제품 설명서에서 지침, 리소스, 답변을 찾아보십시오.
 

@@ -20,7 +20,7 @@ summary: 알림 보고서를 설정 및 해제하여 Cloud Manager에서 사용�
 알림 보고서를 설정 및 해제하여 Cloud Manager에서 사용자 계정을 수정할 수 있습니다.
 
 .이 작업에 대해
-에서 암호와 사용자 정보를 변경해야 합니다 https://cloud.netapp.com["NetApp Cloud Central에서"^].
+에서 암호와 사용자 정보를 변경해야 합니다 https://["NetApp Cloud Central에서"^].
 
 .단계
 . Cloud Manager 콘솔의 오른쪽 위 모서리에서 사용자 아이콘을 클릭한 다음 * 사용자 보기 * 를 선택합니다.

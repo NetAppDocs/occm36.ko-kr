@@ -22,9 +22,9 @@ Cloud Volumes ONTAP를 구축하면 워크로드 요구사항에 맞게 사전 �
 
 Cloud Volumes ONTAP는 AWS 및 Azure에서 BYOL(Pay-as-you-go and Bring Your Own License)의 두 가지 가격 옵션으로 제공됩니다. 선불 종량제 의 경우 Explore, Standard 또는 Premium의 세 가지 라이센스 중에서 선택할 수 있습니다. 각 라이센스는 용량과 컴퓨팅 옵션을 다르게 제공합니다.
 
-* https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_supported_configs_95.html["Cloud Volumes ONTAP 9.5에 지원되는 구성입니다"^]
-* https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_supported_configs_94.html["Cloud Volumes ONTAP 9.4에 지원되는 구성"^]
-* https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_supported_configs_93.html["ONTAP 클라우드 9.3에서 지원되는 구성"^]
+* https://["Cloud Volumes ONTAP 9.5에 지원되는 구성입니다"^]
+* https://["Cloud Volumes ONTAP 9.4에 지원되는 구성"^]
+* https://["ONTAP 클라우드 9.3에서 지원되는 구성"^]
 
 
 
@@ -33,9 +33,9 @@ Cloud Volumes ONTAP는 AWS 및 Azure에서 BYOL(Pay-as-you-go and Bring Your Own
 
 Cloud Volumes ONTAP 시스템의 물리적 용량 제한은 라이센스에 연결되어 있습니다. 추가 제한은 애그리게이트 및 볼륨 크기에 영향을 줍니다. 구성을 계획할 때 이러한 제한 사항을 숙지해야 합니다.
 
-* https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_storage_limits_95.html["Cloud Volumes ONTAP 9.5의 보관 제한"^]
-* https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_storage_limits_94.html["Cloud Volumes ONTAP 9.4의 스토리지 제한"^]
-* https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_storage_limits_93.html["ONTAP 클라우드 9.3의 스토리지 제한"^]
+* https://["Cloud Volumes ONTAP 9.5의 보관 제한"^]
+* https://["Cloud Volumes ONTAP 9.4의 스토리지 제한"^]
+* https://["ONTAP 클라우드 9.3의 스토리지 제한"^]
 
 
 
@@ -51,13 +51,13 @@ Cloud Volumes ONTAP 시스템을 사이징하면 성능 및 용량 요구사항�
 * 여러 사용자가 동시에 시스템에 쓸 경우 요청을 관리할 CPU가 충분한 인스턴스 유형을 선택합니다.
 * 대부분 읽혀지는 응용 프로그램이 있는 경우 충분한 RAM이 있는 시스템을 선택합니다.
 +
-https://aws.amazon.com/ec2/instance-types/["AWS 문서: Amazon EC2 인스턴스 유형"^]
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSOptimized.html["AWS 문서: Amazon EBS – 최적화된 인스턴스"^]
+https://["AWS 문서: Amazon EC2 인스턴스 유형"^]
+https://["AWS 문서: Amazon EBS – 최적화된 인스턴스"^]
 
 
 
 --
-EBS 디스크 유형입니다:: 범용 SSD는 Cloud Volumes ONTAP의 가장 일반적인 디스크 유형입니다. EBS 디스크의 사용 사례를 보려면 을 참조하십시오 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html["AWS 설명서:EBS 볼륨 유형"^].
+EBS 디스크 유형입니다:: 범용 SSD는 Cloud Volumes ONTAP의 가장 일반적인 디스크 유형입니다. EBS 디스크의 사용 사례를 보려면 을 참조하십시오 http://["AWS 설명서:EBS 볼륨 유형"^].
 EBS 디스크 크기입니다:: Cloud Volumes ONTAP 시스템을 시작할 때 초기 디스크 크기를 선택해야 합니다. 그 이후에는 가능합니다 link:concept_storage_management.html["Cloud Manager로 시스템 용량을 관리할 수 있습니다"]하지만 원하는 경우 link:task_provisioning_storage.html#creating-aggregates["스스로 애그리게이트를 빌드하십시오"]다음 사항에 유의하십시오.
 +
 --
@@ -66,7 +66,7 @@ EBS 디스크 크기입니다:: Cloud Volumes ONTAP 시스템을 시작할 때 �
 * 궁극적으로 필요한 _ 지속적인 성능 _ 을(를) 제공하는 디스크 크기를 선택해야 합니다.
 * 4TB 디스크 6개와 같이 더 큰 디스크를 선택하는 경우에도 EC2 인스턴스가 대역폭 제한에 도달할 수 있으므로 모든 IOPS를 가져오지 못할 수 있습니다.
 +
-EBS 디스크 성능에 대한 자세한 내용은 을 참조하십시오 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html["AWS 설명서:EBS 볼륨 유형"^].
+EBS 디스크 성능에 대한 자세한 내용은 을 참조하십시오 http://["AWS 설명서:EBS 볼륨 유형"^].
 
 
 
@@ -82,11 +82,11 @@ video::GELcXmOuYPw[youtube,width=848,height=480]
 
 Cloud Volumes ONTAP 시스템을 사이징하면 성능 및 용량 요구사항을 충족하는 데 도움이 될 수 있습니다. VM 유형, 디스크 유형 및 디스크 크기를 선택할 때 고려해야 할 몇 가지 주요 사항은 다음과 같습니다.
 
-가상 머신 유형입니다:: 에서 지원되는 가상 머신 유형을 확인합니다 http://docs.netapp.com/cloud-volumes-ontap/us-en/index.html["Cloud Volumes ONTAP 릴리즈 노트"^] 지원되는 각 VM 유형에 대한 세부 정보를 검토합니다. 각 VM 유형은 특정 수의 데이터 디스크를 지원합니다.
+가상 머신 유형입니다:: 에서 지원되는 가상 머신 유형을 확인합니다 http://["Cloud Volumes ONTAP 릴리즈 노트"^] 지원되는 각 VM 유형에 대한 세부 정보를 검토합니다. 각 VM 유형은 특정 수의 데이터 디스크를 지원합니다.
 +
 --
-* https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes-general#dsv2-series["Azure 설명서: 범용 가상 머신 크기"^]
-* https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes-memory#dsv2-series-11-15["Azure 설명서: 메모리에 최적화된 가상 머신 크기"^]
+* https://["Azure 설명서: 범용 가상 머신 크기"^]
+* https://["Azure 설명서: 메모리에 최적화된 가상 머신 크기"^]
 
 
 --
@@ -99,7 +99,7 @@ HA 시스템은 프리미엄 페이지 Blob을 사용합니다. 한편, 단일 �
 * _Standard SSD Managed Disks_는 낮은 IOPS가 필요한 워크로드에 일관된 성능을 제공합니다.
 * _표준 HDD 관리 디스크 _ 는 높은 IOPS가 필요하지 않고 비용을 절감하려는 경우에 적합합니다.
 +
-이러한 디스크의 사용 사례에 대한 자세한 내용은 를 참조하십시오 https://azure.microsoft.com/documentation/articles/storage-introduction/["Microsoft Azure 설명서: Microsoft Azure 스토리지 소개"^].
+이러한 디스크의 사용 사례에 대한 자세한 내용은 를 참조하십시오 https://["Microsoft Azure 설명서: Microsoft Azure 스토리지 소개"^].
 
 
 
@@ -118,8 +118,8 @@ Azure 프리미엄 스토리지의 성능은 디스크 크기와 관련이 있�
 
 IOPS 및 디스크 크기별 처리량은 Azure를 참조하십시오.
 
-* https://azure.microsoft.com/en-us/pricing/details/managed-disks/["Microsoft Azure: 관리형 디스크 가격"^]
-* https://azure.microsoft.com/en-us/pricing/details/storage/page-blobs/["Microsoft Azure: 페이지 Blob 가격 책정"^]
+* https://["Microsoft Azure: 관리형 디스크 가격"^]
+* https://["Microsoft Azure: 페이지 Blob 가격 책정"^]
 
 
 --

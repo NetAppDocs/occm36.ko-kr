@@ -82,8 +82,8 @@ NetApp은 모든 로컬 사용자 계정을 Cloud Central 사용자 계정으로
 
 시스템에서 LDAP를 사용하는 경우 NetApp은 시스템을 Cloud Central과 자동으로 통합할 수 없습니다. 다음 단계를 수동으로 수행해야 합니다.
 
-. 에서 새로운 Cloud Manager 시스템을 구축합니다 https://cloud.netapp.com/["NetApp Cloud Central에서"^].
-. https://services.cloud.netapp.com/misc/federation-support["새 시스템으로 LDAP를 설정합니다"^].
+. 에서 새로운 Cloud Manager 시스템을 구축합니다 https://["NetApp Cloud Central에서"^].
+. https://["새 시스템으로 LDAP를 설정합니다"^].
 . link:task_adding_ontap_cloud.html["기존 Cloud Volumes ONTAP 시스템을 검색합니다"] 을 참조하십시오.
 . 이전 Cloud Manager 시스템을 삭제합니다.
 

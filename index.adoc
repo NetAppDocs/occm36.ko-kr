@@ -19,7 +19,7 @@ OnCommand Cloud Manager를 사용하면 클라우드 기반 워크로드를 보�
 == 새로운 기능 알아보기
 
 * link:reference_new_occm.html["Cloud Manager의 새로운 기능"]
-* https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_new_95.html["Cloud Volumes ONTAP의 새로운 기능"^]
+* https://["Cloud Volumes ONTAP의 새로운 기능"^]
 
 
 
@@ -28,7 +28,7 @@ OnCommand Cloud Manager를 사용하면 클라우드 기반 워크로드를 보�
 
 * link:task_getting_started_aws.html["AWS에서 시작하십시오"]
 * link:task_getting_started_azure.html["Azure에서 시작하십시오"]
-* https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_supported_configs_95.html["Cloud Volumes ONTAP에 지원되는 구성을 찾습니다"^]
+* https://["Cloud Volumes ONTAP에 지원되는 구성을 찾습니다"^]
 * link:reference_networking_cloud_manager.html["Cloud Manager에 대한 자세한 네트워킹 요구사항을 검토합니다"]
 * link:reference_networking_aws.html["Cloud Volumes ONTAP for AWS에 대한 자세한 네트워킹 요구사항을 검토하십시오"]
 * link:reference_networking_azure.html["Cloud Volumes ONTAP for Azure에 대한 자세한 네트워킹 요구사항을 검토하십시오"]
@@ -47,7 +47,7 @@ OnCommand Cloud Manager를 사용하면 클라우드 기반 워크로드를 보�
 
 == 동료와 연결하고 도움을 받고 더 많은 정보를 찾을 수 있습니다
 
-* https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS["NetApp 커뮤니티: 클라우드 데이터 서비스"^]
-* https://mysupport.netapp.com/cloudontap["NetApp Cloud Volumes ONTAP 지원"^]
+* https://["NetApp 커뮤니티: 클라우드 데이터 서비스"^]
+* https://["NetApp Cloud Volumes ONTAP 지원"^]
 * link:reference_additional_info.html["도움을 받을 수 있는 곳 및 자세한 정보를 얻을 수 있는 곳"]
 

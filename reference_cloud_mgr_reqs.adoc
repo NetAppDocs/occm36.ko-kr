@@ -36,7 +36,7 @@ Cloud Manager는 이러한 운영 체제의 영어 버전에서 지원됩니다.
 
 
 --
-하이퍼바이저:: CentOS 또는 Red Hat Enterprise Linux 실행 인증을 받은 베어 메탈 또는 호스팅된 하이퍼바이저https://access.redhat.com/certified-hypervisors["Red Hat 솔루션: Red Hat Enterprise Linux 실행 인증을 받은 하이퍼바이저는 무엇입니까?"^]
+하이퍼바이저:: CentOS 또는 Red Hat Enterprise Linux 실행 인증을 받은 베어 메탈 또는 호스팅된 하이퍼바이저https://["Red Hat 솔루션: Red Hat Enterprise Linux 실행 인증을 받은 하이퍼바이저는 무엇입니까?"^]
 CPU:: 코어 2개가 있는 경우 2.27GHz 이상
 RAM:: 4GB
 사용 가능한 디스크 공간:: 50GB

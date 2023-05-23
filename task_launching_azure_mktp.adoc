@@ -14,7 +14,7 @@ summary: NetApp Cloud Central을 사용하여 Azure에 Cloud Manager를 배포�
 
 
 [role="lead"]
-Azure에서 Cloud Manager를 구축하는 것이 가장 좋습니다 https://cloud.netapp.com["NetApp Cloud Central에서"^]필요한 경우 Azure 마켓플레이스에서 구축할 수 있습니다.
+Azure에서 Cloud Manager를 구축하는 것이 가장 좋습니다 https://["NetApp Cloud Central에서"^]필요한 경우 Azure 마켓플레이스에서 구축할 수 있습니다.
 
 Cloud Manager를 구축할 수 있는 별도의 지침이 제공됩니다 link:task_installing_azure_gov.html["Azure 미국 정부 지역"] 및 IN link:task_installing_azure_germany.html["Azure 독일 지역"].
 
@@ -28,7 +28,7 @@ TIP: Azure Marketplace에서 Cloud Manager를 구축한 경우에도 Cloud Manag
 Azure에서 Cloud Volumes ONTAP를 시작하는 데 사용할 수 있도록 Cloud Manager를 설치 및 설정해야 합니다.
 
 .단계
-. https://azure.microsoft.com/en-us/marketplace/partners/netapp/netapp-oncommand-cloud-manager/["Cloud Manager의 Azure 마켓플레이스 페이지로 이동합니다"^].
+. https://["Cloud Manager의 Azure 마켓플레이스 페이지로 이동합니다"^].
 . 지금 받기 * 를 클릭한 다음 * 계속 * 을 클릭합니다.
 . Azure 포털에서 * Create * 를 클릭하고 다음 단계에 따라 가상 시스템을 구성합니다.
 +
@@ -43,7 +43,7 @@ link:reference_security_groups_azure.html["Cloud Manager의 보안 그룹 규칙
 
 ** 관리 * 에서 * 켜기 * 를 선택하여 클라우드 관리자에 대해 * 시스템 할당 관리 ID * 를 활성화합니다.
 +
-이 설정은 Cloud Manager 가상 머신이 자격 증명을 제공하지 않고 Azure Active Directory에 자신을 식별할 수 있도록 관리되는 ID를 허용하므로 중요합니다. https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["Azure 리소스의 관리 ID에 대해 자세히 알아보십시오"^].
+이 설정은 Cloud Manager 가상 머신이 자격 증명을 제공하지 않고 Azure Active Directory에 자신을 식별할 수 있도록 관리되는 ID를 허용하므로 중요합니다. https://["Azure 리소스의 관리 ID에 대해 자세히 알아보십시오"^].
 
 
 
@@ -53,7 +53,7 @@ Azure는 지정된 설정으로 가상 머신을 구축합니다. 가상 머신�
 
 . Cloud Manager 가상 머신에 연결된 호스트에서 웹 브라우저를 열고 다음 URL을 입력합니다.
 +
-http://_ipaddress_:80[]
+http://[]
 
 +
 로그인하면 Cloud Manager에서 자동으로 사용자 계정을 이 시스템의 관리자로 추가합니다.
@@ -68,12 +68,12 @@ http://_ipaddress_:80[]
 
 == Cloud Manager에 Azure 사용 권한 부여
 
-Azure에 Cloud Manager를 구축한 경우 를 활성화해야 합니다 https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["시스템에서 할당한 관리 ID입니다"^]. 이제 사용자 지정 역할을 만든 다음 하나 이상의 구독에 대해 Cloud Manager 가상 머신에 역할을 할당하여 필요한 Azure 권한을 부여해야 합니다.
+Azure에 Cloud Manager를 구축한 경우 를 활성화해야 합니다 https://["시스템에서 할당한 관리 ID입니다"^]. 이제 사용자 지정 역할을 만든 다음 하나 이상의 구독에 대해 Cloud Manager 가상 머신에 역할을 할당하여 필요한 Azure 권한을 부여해야 합니다.
 
 .단계
 . Cloud Manager 정책을 사용하여 사용자 지정 역할 생성:
 +
-.. 를 다운로드합니다 https://mysupport.netapp.com/cloudontap/iampolicies["Cloud Manager Azure 정책"^].
+.. 를 다운로드합니다 https://["Cloud Manager Azure 정책"^].
 .. 할당 가능한 범위에 Azure 구독 ID를 추가하여 JSON 파일을 수정합니다.
 +
 사용자가 Cloud Volumes ONTAP 시스템을 생성할 각 Azure 구독에 대한 ID를 추가해야 합니다.
@@ -105,7 +105,7 @@ Azure에 Cloud Manager를 구축한 경우 를 활성화해야 합니다 https:/
 *** OnCommand 클라우드 관리자 운영자 * 역할을 선택하십시오.
 +
 
-NOTE: OnCommand Cloud Manager Operator는 에 제공되는 기본 이름입니다 https://mysupport.netapp.com/info/web/ECMP11022837.html["Cloud Manager 정책"]. 역할에 다른 이름을 선택한 경우 대신 해당 이름을 선택합니다.
+NOTE: OnCommand Cloud Manager Operator는 에 제공되는 기본 이름입니다 https://["Cloud Manager 정책"]. 역할에 다른 이름을 선택한 경우 대신 해당 이름을 선택합니다.
 
 *** Virtual Machine * 에 대한 액세스 권한을 할당합니다.
 *** Cloud Manager 가상 머신이 생성된 서브스크립션을 선택합니다.

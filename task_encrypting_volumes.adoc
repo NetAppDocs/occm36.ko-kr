@@ -27,7 +27,7 @@ ONTAP CLI에서 NetApp 볼륨 암호화를 설정해야 합니다. 그런 다음
 link:concept_security.html["지원되는 암호화 기술에 대해 자세히 알아보십시오"].
 
 .단계
-. 에서 지원되는 주요 관리자 목록을 검토합니다 http://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^].
+. 에서 지원되는 주요 관리자 목록을 검토합니다 http://["NetApp 상호 운용성 매트릭스 툴"^].
 +
 
 TIP: Key Managers * 솔루션을 검색합니다.
@@ -35,11 +35,11 @@ TIP: Key Managers * 솔루션을 검색합니다.
 . link:task_connecting_to_otc.html["Cloud Volumes ONTAP CLI에 연결합니다"^].
 . Cloud Volumes ONTAP 시스템에 NetApp 볼륨 암호화 라이센스를 설치합니다.
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/GUID-F5F371C0-7713-4A16-B5BF-A3514A97960D.html["ONTAP 9 NetApp 암호화 전원 가이드: 라이센스 설치"^]
+http://["ONTAP 9 NetApp 암호화 전원 가이드: 라이센스 설치"^]
 
 . SSL 인증서를 설치하고 외부 키 관리 서버에 연결합니다.
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/GUID-DD718B42-038D-4009-84FF-20BBD6530BC2.html["ONTAP 9 NetApp 암호화 전원 가이드: 외부 키 관리 구성"^]
+http://["ONTAP 9 NetApp 암호화 전원 가이드: 외부 키 관리 구성"^]
 
 . 암호화된 새 볼륨을 생성하거나 CLI 또는 System Manager를 사용하여 암호화되지 않은 기존 볼륨을 변환합니다.
 +
@@ -47,11 +47,11 @@ http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/GUID-DD718B42-038D-4
 +
 *** 새 볼륨의 경우 -encrypt 매개 변수와 함께 * volume create * 명령을 사용합니다.
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/GUID-A5D3FDEF-CA10-4A54-9E17-DB9E9954082E.html["ONTAP 9 NetApp 암호화 기능 가이드: 새 볼륨에서 암호화 활성화"^]
+http://["ONTAP 9 NetApp 암호화 기능 가이드: 새 볼륨에서 암호화 활성화"^]
 
 *** 기존 볼륨의 경우 * volume encryption conversion start * 명령을 사용합니다.
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/GUID-1468CE48-A0D9-4D45-BF78-A11C26724051.html["ONTAP 9 NetApp 암호화 전원 가이드: 볼륨 암호화 변환 시작 명령을 사용하여 기존 볼륨에서 암호화 사용"^]
+http://["ONTAP 9 NetApp 암호화 전원 가이드: 볼륨 암호화 변환 시작 명령을 사용하여 기존 볼륨에서 암호화 사용"^]
 
 
 
@@ -59,11 +59,11 @@ http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/GUID-1468CE48-A0D9-4
 +
 *** 새 볼륨의 경우 * 스토리지 > 볼륨 > 생성 > FlexVol 생성 * 을 클릭한 다음 * 암호화 * 를 선택합니다.
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-950/GUID-3FA865E2-AE14-40A9-BF76-A2D7EB44D387.html["시스템 관리자를 사용한 ONTAP 9 클러스터 관리: FlexVol 볼륨 생성"^]
+http://["시스템 관리자를 사용한 ONTAP 9 클러스터 관리: FlexVol 볼륨 생성"^]
 
 *** 기존 볼륨의 경우 볼륨을 선택하고 * Edit * 를 클릭한 다음 * Encrypted * 를 선택합니다.
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-950/GUID-906E88E4-8CE9-465F-8AC7-0C089080B2C5.html["ONTAP 9 시스템 관리자를 사용한 클러스터 관리: 볼륨 속성 편집"^]
+http://["ONTAP 9 시스템 관리자를 사용한 클러스터 관리: 볼륨 속성 편집"^]
 
 
 
