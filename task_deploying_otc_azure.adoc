@@ -50,7 +50,7 @@ Cloud Manager는 Azure에서 Cloud Volumes ONTAP 시스템을 생성할 때 리�
 | 리소스 그룹 이름 | 기본값 사용 * 의 선택을 취소하면 새 자원 그룹의 이름을 입력할 수 있습니다. 기존 리소스 그룹을 사용하려면 API를 사용해야 합니다. 
 
 
-| 태그 | 태그는 Azure 리소스에 대한 메타데이터입니다. Cloud Manager는 Cloud Volumes ONTAP 시스템과 시스템에 연결된 각 Azure 리소스에 태그를 추가합니다. 작업 환경을 만들 때 사용자 인터페이스에서 최대 4개의 태그를 추가할 수 있으며, 생성된 후에는 더 많은 태그를 추가할 수 있습니다. API는 작업 환경을 생성할 때 태그를 4개로 제한하지 않습니다. 태그에 대한 자세한 내용은 을 참조하십시오 https://["Microsoft Azure 문서: 태그를 사용하여 Azure 리소스를 구성합니다"^]. 
+| 태그 | 태그는 Azure 리소스에 대한 메타데이터입니다. Cloud Manager는 Cloud Volumes ONTAP 시스템과 시스템에 연결된 각 Azure 리소스에 태그를 추가합니다. 작업 환경을 만들 때 사용자 인터페이스에서 최대 4개의 태그를 추가할 수 있으며, 생성된 후에는 더 많은 태그를 추가할 수 있습니다. API는 작업 환경을 생성할 때 태그를 4개로 제한하지 않습니다. 태그에 대한 자세한 내용은 을 참조하십시오 https://azure.microsoft.com/documentation/articles/resource-group-using-tags/["Microsoft Azure 문서: 태그를 사용하여 Azure 리소스를 구성합니다"^]. 
 
 
 | 자격 증명 | Cloud Volumes ONTAP 클러스터 관리자 계정의 자격 증명입니다. 이러한 자격 증명을 사용하여 OnCommand 시스템 관리자 또는 CLI를 통해 Cloud Volumes ONTAP에 연결할 수 있습니다. 
@@ -177,7 +177,7 @@ Cloud Manager는 Cloud Volumes ONTAP 시스템을 구축합니다. 타임라인�
 
 Cloud Volumes ONTAP 시스템을 배포하는 데 문제가 있으면 오류 메시지를 검토합니다. 작업 환경을 선택하고 * 환경 다시 작성 * 을 클릭할 수도 있습니다.
 
-자세한 내용은 를 참조하십시오 https://["NetApp Cloud Volumes ONTAP 지원"^].
+자세한 내용은 를 참조하십시오 https://mysupport.netapp.com/cloudontap["NetApp Cloud Volumes ONTAP 지원"^].
 
 .작업을 마친 후
 * CIFS 공유를 프로비저닝한 경우 파일 및 폴더에 대한 사용자 또는 그룹 권한을 제공하고 해당 사용자가 공유를 액세스하고 파일을 생성할 수 있는지 확인합니다.

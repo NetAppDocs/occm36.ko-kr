@@ -37,7 +37,7 @@ image:screenshot_warning.gif["스크린샷: 경고 아이콘이 포함된 Cloud 
 라이센스를 제때 갱신하지 않으면 Cloud Volumes ONTAP 시스템이 자동으로 종료됩니다. 다시 시작하면 자동으로 종료됩니다.
 
 
-NOTE: Cloud Volumes ONTAP는 EMS(이벤트 관리 시스템) 이벤트 알림을 사용하여 이메일, SNMP traaphost 또는 syslog 서버를 통해 사용자에게 알릴 수도 있습니다. 자세한 내용은 를 참조하십시오 http://["ONTAP 9 EMS 구성 익스프레스 가이드"^].
+NOTE: Cloud Volumes ONTAP는 EMS(이벤트 관리 시스템) 이벤트 알림을 사용하여 이메일, SNMP traaphost 또는 syslog 서버를 통해 사용자에게 알릴 수도 있습니다. 자세한 내용은 를 참조하십시오 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-ems/home.html["ONTAP 9 EMS 구성 익스프레스 가이드"^].
 
 [discrete]
 === 라이센스 갱신

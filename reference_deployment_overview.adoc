@@ -78,7 +78,7 @@ Cloud Manager를 시작 및 실행한 후 AWS 및 Microsoft Azure에서 Cloud Vo
 
 link:task_getting_started_aws.html["AWS 시작하기"] 및 link:task_getting_started_azure.html["Azure에서 시작하기"] Cloud Volumes ONTAP를 빠르게 시작하고 실행하기 위한 지침을 제공합니다. 추가 도움말은 다음을 참조하십시오.
 
-* https://["Cloud Volumes ONTAP 9.5에 지원되는 구성입니다"^]
+* https://docs.netapp.com/us-en/cloud-volumes-ontap/reference_supported_configs_95.html["Cloud Volumes ONTAP 9.5에 지원되는 구성입니다"^]
 * link:task_planning_your_config.html["구성 계획"]
 * link:task_deploying_otc_aws.html["AWS에서 Cloud Volumes ONTAP 실행"]
 * link:task_deploying_otc_azure.html["Azure에서 Cloud Volumes ONTAP 실행"]

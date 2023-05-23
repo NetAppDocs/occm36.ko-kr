@@ -23,7 +23,7 @@ summary: 스토리지 요구사항이 변경됨에 따라 Cloud Volumes ONTAP �
 Cloud Manager가 NetApp에서 BYOL 라이센스 파일을 얻을 수 없는 경우 직접 파일을 가져온 다음 파일을 Cloud Manager에 수동으로 업로드하여 Cloud Volumes ONTAP 시스템에 라이센스를 설치할 수 있습니다.
 
 .단계
-. 로 이동합니다 https://["NetApp 라이센스 파일 생성기"^] 를 입력하고 NetApp Support 사이트 자격 증명을 사용하여 로그인합니다.
+. 로 이동합니다 https://register.netapp.com/register/getlicensefile["NetApp 라이센스 파일 생성기"^] 를 입력하고 NetApp Support 사이트 자격 증명을 사용하여 로그인합니다.
 . 암호를 입력하고 제품을 선택한 다음(* NetApp Cloud Volumes ONTAP BYOL for AWS *, * NetApp Cloud Volumes ONTAP BYOL for Azure * 또는 * NetApp Cloud Volumes ONTAP BYOL HA for AWS *), 일련 번호를 입력하고, 개인 정보 보호 정책을 읽고 동의했는지 확인한 다음 * 제출 * 을 클릭합니다.
 +
 * 예 *

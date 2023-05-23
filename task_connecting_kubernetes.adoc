@@ -15,9 +15,9 @@ summary: Cloud Manager를 사용하면 Kubernetes 클러스터에 NetApp Trident
 
 
 [role="lead"]
-Cloud Manager는 의 구축을 자동화할 수 있습니다 https://["NetApp 트라이던트"^] Kubernetes 클러스터에서 컨테이너용 영구 스토리지로 Cloud Volumes ONTAP를 사용할 수 있습니다. 시작에 몇 가지 단계가 있습니다.
+Cloud Manager는 의 구축을 자동화할 수 있습니다 https://netapp-trident.readthedocs.io/en/stable-v18.10/introduction.html["NetApp 트라이던트"^] Kubernetes 클러스터에서 컨테이너용 영구 스토리지로 Cloud Volumes ONTAP를 사용할 수 있습니다. 시작에 몇 가지 단계가 있습니다.
 
-를 사용하여 Kubernetes 클러스터를 구축하는 경우 https://["NetApp Kubernetes 서비스"^]Cloud Manager를 사용하면 NetApp Cloud Central 계정에서 클러스터를 자동으로 검색할 수 있습니다. 이 경우 처음 두 단계를 건너뛰고 3단계부터 시작합니다.
+를 사용하여 Kubernetes 클러스터를 구축하는 경우 https://cloud.netapp.com/kubernetes-service["NetApp Kubernetes 서비스"^]Cloud Manager를 사용하면 NetApp Cloud Central 계정에서 클러스터를 자동으로 검색할 수 있습니다. 이 경우 처음 두 단계를 건너뛰고 3단계부터 시작합니다.
 
 
 
@@ -82,7 +82,7 @@ Cloud Manager는 기본적으로 다음 프로비저닝 옵션을 사용하도�
 
 
 [role="quick-margin-para"]
-https://["Kubernetes용 Trident를 사용하여 첫 번째 볼륨을 프로비저닝하는 방법에 대해 자세히 알아보십시오"^]
+https://netapp-trident.readthedocs.io/["Kubernetes용 Trident를 사용하여 첫 번째 볼륨을 프로비저닝하는 방법에 대해 자세히 알아보십시오"^]
 
 .Triment_triment 볼륨은 얼마입니까?
 ****

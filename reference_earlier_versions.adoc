@@ -16,8 +16,8 @@ summary: 최신 버전을 실행하고 있지 않은 경우 이전 Cloud Manager
 [role="lead"]
 최신 버전을 실행하고 있지 않은 경우 이전 Cloud Manager 릴리즈 관련 문서를 사용할 수 있습니다.
 
-* https://["Cloud Manager 3.5"^]
-* https://["Cloud Manager 3.4"^]
-* https://["Cloud Manager 3.3"^]
-* https://["Cloud Manager 3.2"^]
+* https://docs.netapp.com/us-en/occm35/["Cloud Manager 3.5"^]
+* https://docs.netapp.com/us-en/occm34/["Cloud Manager 3.4"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=62509["Cloud Manager 3.3"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=62391["Cloud Manager 3.2"^]
 

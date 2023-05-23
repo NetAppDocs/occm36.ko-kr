@@ -26,7 +26,7 @@ Cloud Manager를 사용하면 Cloud Volumes ONTAP 시스템을 구축할 _ 클�
 
 === 초기 AWS 계정
 
-NetApp Cloud Central에서 Cloud Manager를 구축할 때 Cloud Manager 인스턴스를 시작할 수 있는 권한이 있는 AWS 계정을 사용해야 합니다. 필요한 권한이 에 나열됩니다 https://["AWS를 위한 NetApp Cloud Central 정책"^].
+NetApp Cloud Central에서 Cloud Manager를 구축할 때 Cloud Manager 인스턴스를 시작할 수 있는 권한이 있는 AWS 계정을 사용해야 합니다. 필요한 권한이 에 나열됩니다 https://mysupport.netapp.com/cloudontap/iampolicies["AWS를 위한 NetApp Cloud Central 정책"^].
 
 Cloud Central이 AWS에서 Cloud Manager 인스턴스를 시작하면 IAM 역할과 인스턴스에 대한 인스턴스 프로필이 생성됩니다. 또한, Cloud Manager에 해당 AWS 계정에 Cloud Volumes ONTAP를 구축 및 관리할 수 있는 권한을 제공하는 정책을 연결합니다. link:reference_permissions.html#what-cloud-manager-does-with-aws-permissions["Cloud Manager에서 사용 권한을 사용하는 방법을 검토합니다"].
 
@@ -60,9 +60,9 @@ image:screenshot_accounts_switch_aws.gif["세부 정보 및 amp;Credentials 페�
 
 === 초기 Azure 계정입니다
 
-NetApp Cloud Central에서 Cloud Manager를 구축할 때 Cloud Manager 가상 머신을 구축할 권한이 있는 Azure 계정을 사용해야 합니다. 필요한 권한이 에 나열됩니다 https://["Azure를 위한 NetApp Cloud Central 정책"^].
+NetApp Cloud Central에서 Cloud Manager를 구축할 때 Cloud Manager 가상 머신을 구축할 권한이 있는 Azure 계정을 사용해야 합니다. 필요한 권한이 에 나열됩니다 https://mysupport.netapp.com/cloudontap/iampolicies["Azure를 위한 NetApp Cloud Central 정책"^].
 
-Cloud Central은 Azure에 Cloud Manager 가상 머신을 구축할 때 가 가능합니다 https://["시스템에서 할당한 관리 ID입니다"^] Cloud Manager 가상 머신에서 사용자 지정 역할을 생성하고 가상 머신에 할당합니다. 이 역할은 Cloud Manager에 Azure 구독에서 Cloud Volumes ONTAP를 배포하고 관리할 수 있는 권한을 제공합니다. link:reference_permissions.html#what-cloud-manager-does-with-azure-permissions["Cloud Manager에서 사용 권한을 사용하는 방법을 검토합니다"].
+Cloud Central은 Azure에 Cloud Manager 가상 머신을 구축할 때 가 가능합니다 https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["시스템에서 할당한 관리 ID입니다"^] Cloud Manager 가상 머신에서 사용자 지정 역할을 생성하고 가상 머신에 할당합니다. 이 역할은 Cloud Manager에 Azure 구독에서 Cloud Volumes ONTAP를 배포하고 관리할 수 있는 권한을 제공합니다. link:reference_permissions.html#what-cloud-manager-does-with-azure-permissions["Cloud Manager에서 사용 권한을 사용하는 방법을 검토합니다"].
 
 image:diagram_permissions_initial_azure.png["Cloud Central에서 Azure 계정 및 구독에 Cloud Manager를 배포하는 방법을 보여 주는 개념적 이미지입니다. 시스템에서 할당한 관리 ID가 활성화되고 사용자 지정 역할이 Cloud Manager 가상 머신에 할당됩니다."]
 

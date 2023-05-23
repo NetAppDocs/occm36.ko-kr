@@ -29,6 +29,6 @@ NOTE: 재부팅 후 캐시 재가기는 Cloud Volumes ONTAP에서 지원되지 �
 
 . 모든 볼륨에서 압축을 해제합니다.
 +
-Flash Cache의 성능 향상 기능을 활용하려면 모든 볼륨에서 압축을 해제해야 합니다. Cloud Manager에서 볼륨을 생성할 때 스토리지 효율성을 선택하지 않거나, 볼륨을 생성한 후 생성할 수 있습니다 http://["CLI를 사용하여 데이터 압축을 비활성화합니다"^].
+Flash Cache의 성능 향상 기능을 활용하려면 모든 볼륨에서 압축을 해제해야 합니다. Cloud Manager에서 볼륨을 생성할 때 스토리지 효율성을 선택하지 않거나, 볼륨을 생성한 후 생성할 수 있습니다 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/GUID-8508A4CB-DB43-4D0D-97EB-859F58B29054.html["CLI를 사용하여 데이터 압축을 비활성화합니다"^].
 
 
