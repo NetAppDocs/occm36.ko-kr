@@ -209,7 +209,5 @@ sidebar:
       url: "/reference_user_roles.html"
     - title: 관련 링크
       url: "/reference_additional_info.html"
-  - title: 이전 버전
-    url: "/reference_earlier_versions.html"
   - title: 법적 고지
     url: "/reference_legal_notices.html"
