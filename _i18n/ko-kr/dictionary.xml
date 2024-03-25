@@ -3002,16 +3002,6 @@
   <block id="8d3f7e1960dec03fcfd26823c1afb0c6" category="list-text"><block ref="8d3f7e1960dec03fcfd26823c1afb0c6" category="inline-link-macro-rx"></block></block>
   <block id="28fb4299411e017f27a0ef6aa68a95eb" category="inline-link-macro">Cloud Manager로 라이센스 파일을 관리하는 방법에 대해 알아보십시오</block>
   <block id="08326e0e1e347d967d29de0124175072" category="list-text"><block ref="08326e0e1e347d967d29de0124175072" category="inline-link-macro-rx"></block></block>
-  <block id="bf247a42035ccb395566620f801451c6" category="summary">최신 버전을 실행하고 있지 않은 경우 이전 Cloud Manager 릴리즈 관련 문서를 사용할 수 있습니다.</block>
-  <block id="07d55193182697e6721a80930a82f737" category="doc">더 빠른 버전의 Cloud Manager 설명서</block>
-  <block id="ecc216112e51b5fcf9a16ded8dabf7d3" category="inline-link">Cloud Manager 3.5</block>
-  <block id="cfc918b9915ac614a17310f450bf2721" category="list-text"><block ref="cfc918b9915ac614a17310f450bf2721" category="inline-link-rx"></block></block>
-  <block id="e3d94d1f3408c8379bdf78d363454ce1" category="inline-link">Cloud Manager 3.4</block>
-  <block id="38de804ea38bf38231c886d96da268e7" category="list-text"><block ref="38de804ea38bf38231c886d96da268e7" category="inline-link-rx"></block></block>
-  <block id="071d13764bfb9458bd760c388f1767ba" category="inline-link">Cloud Manager 3.3</block>
-  <block id="16402a155f06e6eb36ecc0f5c23fe0c3" category="list-text"><block ref="16402a155f06e6eb36ecc0f5c23fe0c3" category="inline-link-rx"></block></block>
-  <block id="5762b1cbe884ee9e94cfac52c83c4e93" category="inline-link">Cloud Manager 3.2</block>
-  <block id="512d31465e67eb0eaa423ce8c234959e" category="list-text"><block ref="512d31465e67eb0eaa423ce8c234959e" category="inline-link-rx"></block></block>
   <block id="286994e9e1269d98948cb886c01ca156" category="summary">Cloud Volumes ONTAP는 데이터 암호화를 지원하고 바이러스 및 랜섬웨어에 대한 보호를 제공합니다.</block>
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="doc">보안</block>
   <block id="680320505bc5249cad5c734555179144" category="section-title">유휴 데이터의 암호화</block>
@@ -3182,7 +3172,6 @@
   <block id="f90e6605f3b61632417dd0fa03f7a25f" category="sidebar">Cloud Central 통합에 대한 FAQ</block>
   <block id="75396e001838965f1f26327de3cf6d73" category="sidebar">Cloud Volumes ONTAP에 대해 지원되는 구성입니다</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="sidebar">권한</block>
-  <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">이전 버전</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
   <block id="9b1146da7e8885b360bcba1784bf6d6c" category="inline-image-macro">1번</block>
   <block id="1323d5a65678d7001c29460122ccc820" category="section-title"><block ref="dfda45ebcbf64ca08d06a80353e9cf6f" category="inline-image-macro-rx" type="image"></block> 네트워크 연결을 확인합니다</block>
@@ -3203,4 +3192,8 @@
   <block id="832eb2addfeb7baf5b285a22aaeb4161" category="section-title"><block ref="b496ee93dbdd8d3b796a1af3fe777064" category="inline-image-macro-rx" type="image"></block> 필요한 Azure 권한을 제공합니다</block>
   <block id="55656479963c4d6faa53aa52af17bb58" category="section-title"><block ref="f99fa24d03c6ef96c556af7cdf23810f" category="inline-image-macro-rx" type="image"></block> NetApp Cloud Central에서 Cloud Manager를 실행합니다</block>
   <block id="fc6a1c4bfdea701c7028d4b2604689fb" category="section-title"><block ref="d0f5cff2b8e0ecc91e360a74276cf2dd" category="inline-image-macro-rx" type="image"></block> Cloud Manager를 사용하여 Cloud Volumes ONTAP를 실행합니다</block>
+  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="section-title">BlueXP</block>
+  <block id="1514a9e798eb61fcbaf1fddb8eb82097" category="paragraph">NetApp BlueXP는 Cloud Manager를 통해 제공되는 기능을 확장하고 개선합니다.</block>
+  <block id="ab226d70455b3dcdb3cf804792103d43" category="inline-link">BlueXP 문서로 이동합니다</block>
+  <block id="50523074a17d5fe93be8e3f013a747de" category="paragraph"><block ref="50523074a17d5fe93be8e3f013a747de" category="inline-link-rx"></block></block>
 </blocks>

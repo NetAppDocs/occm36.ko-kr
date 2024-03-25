@@ -16,6 +16,14 @@ OnCommand Cloud Manager를 사용하면 클라우드 기반 워크로드를 보�
 
 
 
+== BlueXP
+
+NetApp BlueXP는 Cloud Manager를 통해 제공되는 기능을 확장하고 개선합니다.
+
+https://docs.netapp.com/us-en/bluexp-family/["BlueXP 문서로 이동합니다"^]
+
+
+
 == 새로운 기능 알아보기
 
 * link:reference_new_occm.html["Cloud Manager의 새로운 기능"]
